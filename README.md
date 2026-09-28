@@ -129,24 +129,31 @@ The scale was developed and validated through factor analysis across multiple st
 
 | Element | Condition A | Condition B | Held Constant |
 |---|---|---|---|
-| Primary factor | | | |
-| Robot behavior | | | |
-| Interaction | | | |
+| Primary factor | Nod amplitude of 0°. The robot stays still when the participant pauses. | Nod amplitude of 10°. The robot gives one small nod each time the participant pauses. | Pause detection runs in both conditions (700 ms of silence counts as a pause, with at least 3 s between nods). |
+| Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot holds its neutral pose and nods down and back up over 0.6 s at each pause. | Starting pose, idle antenna position, gaze direction, and return to neutral at the end. |
+| Interaction | The participant talks to the robot for 3 minutes about an assigned prompt. | Same task, using the other prompt. | Instructions, 3-minute time limit, room setup, facilitator, and operator. |
 
 ### Participants
 
 #### Target Population and Sampling Rationale
 
+Our target population is adults who might talk to a social robot in everyday settings, such as at home, at a front desk or in a classroom. For this pilot, we recruited at least four adult volunteers from the Cornell Tech community who are not members of our team. We used a convenience sample because the goal of a pilot is to test whether the task, the robot behavior and our measures work before running a larger study, not to make claims about the general population.
+
 #### Demographics, Robot Familiarity, and Condition Order
 
-| Participant ID | Demographics | Robot Familiarity | Condition Order |
-|---|---|---|---|
-| P01 | | | |
-| P02 | | | |
-| P03 | | | |
-| P04 | | | |
+We collected only information that could reasonably affect how someone talks to or judges a robot: age range, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given an ID, and their condition order and prompt order were assigned before their session began. Pairing the orders this way means each condition is seen first twice and each prompt is used with each condition twice.
+
+
+| Participant ID | Age Range | English Comfort | Robot Familiarity (1–7) | Condition Order | Prompt Order |
+|---|---|---|---|---|---|
+| P01 | | | | A then B | Place, then Meal |
+| P02 | | | | B then A | Place, then Meal |
+| P03 | | | | A then B | Meal, then Place |
+| P04 | | | | B then A | Meal, then Place |
 
 #### Limits on Transferability
+
+With only four participants, all drawn from a tech-focused graduate campus, our results can't tell us how people in general would react to a nodding robot. Our participants are likely more comfortable with technology and more curious about robots than most people. They also know they are taking part in a class study, which may make them more patient or more generous in their ratings. Any pattern we find should be treated as a reason to run a larger study, not as a conclusion
 
 ### Study Task
 
@@ -154,26 +161,82 @@ The scale was developed and validated through factor analysis across multiple st
 
 #### Trial Definitions
 
+In each condition, the participant sits facing Reachy Mini and talks to it for 3 minutes about a topic printed on a card. The two topics are:
+
+- **Place:** "Tell the robot about a place you like to spend time, and why you like it."
+- **Meal:** "Tell the robot about a meal you really enjoy, and what makes it special."
+
+We chose these topics because anyone can talk about them without special knowledge, and they're personal enough to encourage natural, flowing speech with pauses. The facilitator reads the same instructions before each condition:
+
+> "For the next three minutes, please talk to the robot about the topic on this card. Speak to it as you would to someone who is listening to you. There's no right or wrong way to do this. I'll let you know when the time is up."
+
+If the participant stops talking for more than 15 seconds, the facilitator can say once: "Feel free to keep going, or add anything else that comes to mind."
+
 | Trial Status | Definition |
 |---|---|
-| Completed | |
-| Interrupted | |
-| Failed | |
-| Repeated | |
+| Completed | The full 3-minute conversation ran, the robot behaved as intended for that condition, and the participant filled out the questionnaire. |
+| Interrupted | The conversation was paused before 3 minutes, for example because of a noise, a question from the participant, or the operator pressing stop, and then resumed. We record how long the pause lasted and why it happened. |
+| Failed | The condition couldn't be delivered as designed, for example the robot didn't nod in Condition B, moved in Condition A, or lost connection, or the participant chose to stop. |
+| Repeated | A failed condition that we ran again from the start. We only repeat a condition if the failure happened in the first 30 seconds, and we note the repeat in the session record. |
 
 #### Setting and Environmental Controls
 
+Every session takes place in the HRI Lab. Reachy Mini sits on a table at roughly the participant's seated eye level, and the participant's chair is placed at about 1 meter in front of it. The facilitator sits to the side, out of the participant's direct line of sight, so the participant naturally speaks to the robot rather than to a person. A second team member sits at the laptop with the stop control, also out of direct view.
+
 ### Facilitator Script
+
+**Before the participant arrives**
+
+We power on the robot, confirm the battery and motors look normal, and run a short test of both conditions to make sure the robot stays still in Condition A and nods in Condition B. We check that the log is recording and put the robot in its neutral pose.
+
+**Welcome and agreement to participate**
+
+> "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. The whole session takes about 10 minutes. We're interested in how people experience talking to robots. We won't record video of you, but the robot will log when you are speaking so we can measure the conversation. Your responses will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
+
+**Background questions**
+
+We ask the participant their age range, how comfortable they are speaking English, and how familiar they are with robots (1–7).
+
+**First conversation**
+
+We hand the user the first topic card and read the standard instructions and signal the operator team member to start the first condition. After 3 minutes, we'll say: "Thank you, that's time." Hand over the post-conversation questionnaire.
+
+**Between conversations**
+
+While the participant fills out the questionnaire, the operator team member will return the robot to neutral and loads the second condition.
+
+**Second conversation**
+
+We hand them the second topic card and read the same instructions, then run the second condition the same way, then hand over the second questionnaire.
+
+**Debrief**
+
+> "Thank you. Now we can tell you what we were looking at. In one of your conversations, the robot nodded slightly whenever you paused, and in the other it stayed still. We wanted to know whether those small nods change how friendly or attentive the robot seems, and whether they affect how much people talk. Did you notice a difference? Do you have any questions?"
 
 ### Measures
 
 #### HRIES Questionnaire
 
+Participants rate how well each word describes the robot on a 7-point scale, from 1 (not at all) to 7 (very much). The 16 words are shown in a mixed order, and the same order is used every time. Each dimension is scored separately.
+
+| Dimension | Items |
+|---|---|
+| Sociability (primary outcome) | Warm, Likeable, Trustworthy, Friendly |
+| Animacy | Human-like, Real, Alive, Natural |
+| Agency | Self-reliant, Rational, Intentional, Intelligent |
+| Disturbance | Scary, Strange, Creepy, Weird |
+
 #### Manipulation-Check Item
+
+"The robot responded to what I was saying with head movements." Rated from 1 (strongly disagree) to 7 (strongly agree).
 
 #### Objective Behavioral Measure
 
+Total speaking time, in seconds, during the 3-minute conversation. The app measures this from the microphone by adding up the time the participant was speaking. We also record how many times the facilitator had to prompt the participant to keep going.
+
 #### Open-Ended Question
+
+"How would you describe the robot's behavior while you were talking?"
 
 ### Interruptions, Missing Data, Robot Faults, and Protocol Deviations
 
