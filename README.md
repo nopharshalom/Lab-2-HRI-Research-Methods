@@ -22,6 +22,7 @@ The real robot didn't move as smoothly as it did in the simulation. Its motions 
 ## 2. Hello World Application
 
 ### Demonstration Clip
+[▶️ Watch the application demo](images/hello-world.mov)
 
 ### Stage Markers (Screenshot / Log Excerpt)
 
