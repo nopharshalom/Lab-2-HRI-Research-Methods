@@ -13,6 +13,8 @@ Nophar Shalom, Bailey Carlson, Wiam Salih
 
 ### Sim-to-Real Comparison
 
+The real robot didn't move as smoothly as it did in the simulation. Its motions were often a bit jerky or hesitant, probably because of things the simulation didn't account for, like motor delays, friction in the joints, and small quirks in the hardware. It was also fairly noisy. The motors and gears made sounds with every movement, so you could tell what the robot was doing just by listening to it.
+
 ---
 
 ## 2. Hello World Application
