@@ -11,6 +11,7 @@ Nophar Shalom, Bailey Carlson, Wiam Salih
 [▶️ Watch the physical Reachy control demo](images/reachy-control.mov)
 
 ### Stage Markers (Screenshot / Log Excerpt)
+<img src="images/sim-screenshot.jpeg">
 
 ### Sim-to-Real Comparison
 
