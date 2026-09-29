@@ -24,9 +24,37 @@ The real robot didn't move as smoothly as it did in the simulation. Its motions 
 ### Demonstration Clip
 [▶️ Watch the application demo](images/hello-world.mov)
 
+```
+python - <<'PY'
+import time
+from reachy_mini import ReachyMini
+
+with ReachyMini() as mini:
+    mini.enable_motors()
+    mini.goto_target(antennas=[0.3, -0.3], duration=1.0)
+    mini.goto_target(antennas=[-0.3, 0.3], duration=1.0)
+    mini.goto_target(antennas=[0.0, 0.0], duration=1.0)
+
+   
+    mini.start_head_tracking()
+    time.sleep(0.1)
+
+    try:
+        for _ in range(100):         
+            face = mini.get_tracked_face()
+            detected = face[0] if isinstance(face, (tuple, list)) else getattr(face, "detected", False)
+        
+        else:
+            print("No face seen")
+    finally:
+        mini.stop_head_tracking()      
+    print("Done")
+PY
+```
 ### Stage Markers (Screenshot / Log Excerpt)
 
 ### Changes, Expected Outcomes, and Actual Outcomes
+
 
 ---
 
