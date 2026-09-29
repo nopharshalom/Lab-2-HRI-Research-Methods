@@ -8,6 +8,7 @@ Nophar Shalom, Bailey Carlson, Wiam Salih
 ## 1. Teleoperation on the Physical Robot
 
 ### Final App Cycle Clip
+[▶️ Watch the physical Reachy control demo](images/reachy-control.mov)
 
 ### Stage Markers (Screenshot / Log Excerpt)
 
