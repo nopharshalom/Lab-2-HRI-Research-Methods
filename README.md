@@ -38,7 +38,8 @@ The real robot didn't move as smoothly as it did in the simulation. Its motions 
 
 | Source App | Capability Reused / Modified | Interaction Goal | Final-Project Connection |
 |---|---|---|---|
-| | | | |
+| Reachy Mini Conversation App | | | |
+| Emotions Library | | | |
 
 ### Manipulation Parameter
 
