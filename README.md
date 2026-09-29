@@ -59,6 +59,7 @@ PY
 ---
 
 ## 3. Custom App on the Physical Robot
+[talk_study_app.py](talking_study_app.py)
 
 ### Final-Project Topic and App Capabilities
 
