@@ -174,7 +174,7 @@ Our target population is adults who might talk to a social robot in everyday set
 We collected only information that could reasonably affect how someone talks to or judges a robot: age range, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given an ID, and their condition was assigned before their session began. This means that each condition is seen twice and all participants get the same prompts.
 
 
-| Participant ID | Age Range | English Comfort | Robot Familiarity (1–7) | Condition Order | Prompts Used |
+| Participant ID | Age | English Comfort | Robot Familiarity (1–7) | Condition Order | Prompts Used |
 |---|---|---|---|---|---|
 | P01 | | | | A then B | Place, then Meal |
 | P02 | | | | B then A | Place, then Meal |
