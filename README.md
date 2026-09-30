@@ -156,7 +156,7 @@ The HRIES (Spatola, Kühnlenz & Cheng, 2021) has 16 items rated on a 7-point sca
 
 | Element | Condition A | Condition B | Held Constant |
 |---|---|---|---|
-| Primary factor | Nod amplitude of 0°. The robot stays still when the participant pauses. | Nod amplitude of 10°. The robot gives one small nod each time the participant pauses. | Pause detection runs in both conditions (700 ms of silence counts as a pause, with at least 3 s between nods). |
+| Primary factor | Nod amplitude of 0°. The robot stays still when the participant pauses. | Nod amplitude of 10°. The robot gives one small nod each time the participant pauses. | Reachy response to each user comment. |
 | Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot holds its neutral pose and nods down and back up over 0.6 s at each pause. | Starting pose, idle antenna position, gaze direction, and return to neutral at the end. |
 | Interaction | The participant talks to the robot for 3 minutes about an assigned prompt. | Same task, using the other prompt. | Instructions, 3-minute time limit, room setup, facilitator, and operator. |
 
