@@ -53,36 +53,32 @@ PY
 ```
 ### Stage Markers (Screenshot / Log Excerpt)
 
+<img src="images/export.jpeg">
+
 ### Changes, Expected Outcomes, and Actual Outcomes
 
+With the Hello World code, we edited it to include face tracking alongside the antenna movements from the original code. When a participant moves their head, Reachy could now move its head in regards to their movement, creating a more immersive conversation experience. In this case, because it was a simple change, our expected outcomes seemed to match the actual outcomes.
 
 ---
 
 ## 3. Custom App on the Physical Robot
-[talk_study_app.py](talking_study_app.py)
+
+[Check out our Custom App code here!](talking_study_app.py)
 
 ### Final-Project Topic and App Capabilities
 
+In any case, our final project topic will include interactive features that enable the user to converse with Reachy Mini. Those conversations will require both conversation feedback and gestures, alongside face tracking to keep the user engaged. Because our target audience will be middle school children, we want the experience to be as intuitive as possible. This includes making sure that they feel heard and supported by the Reachy Mini, regardless of the task at hand. We are incorporating the capabilities from the Conversational App and the Greetings App for Reachy Mini.
+
 ### Integration Map
 
-| Source App | Capability Reused / Modified | Interaction Goal | Final-Project Connection |
+| Source App | Capability Reused | Modified | Interaction Goal | Final-Project Connection |
 |---|---|---|---|
-| Reachy Mini Conversation App | | | |
-| Emotions Library | | | |
-
-### Manipulation Parameter
-
-| Parameter | Units | Condition A | Condition B |
-|---|---|---|---|
-| | | | |
+| Reachy Mini Conversation App | We used the verbal greetings from the beginning and end of the conversation. | We modified the prompt that the user recieves (e.g. the question asked) as well as the feedback responses provided to the user from Reachy as they converse.| The goal was to make sure that the user feels verbally assured as they speak, to make sure that they know they're heard.| In a normal conversation, the user would need to know that they are being heard and engaged with.|
+| Gestures Library | We used the initial gestures (head nodding, antenna crossing, etc.)| We added facial tracking for a smoother user experience overall. | The goal was for maximum attentiveness from the robot, almost as if they are human.| Immersiveness and human-like attention is the goal, especially when it comes to children because they like to get attention.|
 
 ### Setup, Launch, and Stop Instructions
 
 ### Robot-Only Demonstration
-
-#### Condition A
-
-#### Condition B
 
 ---
 
