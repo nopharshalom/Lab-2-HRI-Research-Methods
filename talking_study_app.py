@@ -20,8 +20,8 @@ VOICE_RATE = 175
 PROMPTS = {"place": "Can you tell me about a place you like to visit?",
            "meal": "Can you tell me about a memorable meal you have had?"}
 GREETING = "Hi there! I'm Reachy. It's nice to meet you."
-BACKCHANNELS = ["Got it.", "I see.", "Tell me more.", "That sounds interesting.",
-                "Oh, really?", "Go on."]
+BACKCHANNELS = ["Tell me more", "I see.", "really nice.", "Go on.",
+                "Oh, really?", "That sounds good"]
 CLOSING = "Thank you for sharing that with me. Goodbye!"
 LOG_FILE = Path(__file__).resolve().parent / "logs" / "trials.csv"
 
