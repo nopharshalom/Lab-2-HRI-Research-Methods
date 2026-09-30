@@ -98,7 +98,6 @@ When people talk to someone, they rely on small listener signals, like nods, to 
 | Active-listening nods make Reachy Mini seem more sociable | `NOD_AMPLITUDE_DEG`: 0° (A) vs 10° (B), triggered throughout the conversation | HRIES sociability (primary) | Higher sociability scores in Condition B than in Condition A for most participants |
 | Participants notice the listening behavior | Same as above | Manipulation-check item | Higher agreement in Condition B than in Condition A |
 | Nods encourage participants to keep talking | Same as above | Speaking time (s) | Longer speaking time in Condition B than in Condition A |
-| Nods may feel unnatural if mistimed (exploratory) | Same as above | HRIES disturbance; open-ended responses | No predicted direction; qualitative comments on timing or naturalness |
 
 #### Independent Variable
 
