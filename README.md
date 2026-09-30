@@ -81,6 +81,7 @@ In any case, our final project topic will include interactive features that enab
 ### Robot-Only Demonstration
 
 [▶️ Watch the condition A demo](images/conditionA.mov)
+
 [▶️ Watch the condition B demo](images/conditionB.mov)
 
 ---
