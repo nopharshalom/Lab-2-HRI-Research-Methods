@@ -253,10 +253,6 @@ Participants rate how well each word describes the robot on a 7-point scale, fro
 | Agency | Self-reliant, Rational, Intentional, Intelligent |
 | Disturbance | Scary, Strange, Creepy, Weird |
 
-#### Manipulation-Check Item
-
-"The robot responded to what I was saying with head movements." Rated from 1 (strongly disagree) to 7 (strongly agree).
-
 #### Objective Behavioral Measure
 
 Total speaking time, in seconds, during the 3-minute conversation. The app measures this from the microphone by adding up the time the participant was speaking. We also record how many times the facilitator had to prompt the participant to keep going.
@@ -264,6 +260,11 @@ Total speaking time, in seconds, during the 3-minute conversation. The app measu
 #### Open-Ended Question
 
 "How would you describe the robot's behavior while you were talking?"
+
+#### Manipulation-Check Item
+
+"The robot responded to what I was saying with head movements." Rated from 1 (strongly disagree) to 7 (strongly agree).
+
 
 ### Interruptions, Missing Data, Robot Faults, and Protocol Deviations
 
