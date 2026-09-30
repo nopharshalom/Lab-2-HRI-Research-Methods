@@ -175,7 +175,7 @@ We collected only information that could reasonably affect how someone talks to 
 
 
 | Participant ID | Age | English Comfort | Robot Familiarity (1–7) |
-|---|---|---|---|---|
+|---|---|---|---|
 | P01 | | | |
 | P02 | | | |
 | P03 | | | |
