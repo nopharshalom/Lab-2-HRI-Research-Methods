@@ -191,21 +191,21 @@ With only four participants, all drawn from a tech-focused graduate campus, our 
 
 #### Trial Definitions
 
-In each condition, the participant sits facing Reachy Mini and talks to it for 3 minutes about a topic printed on a card. The two topics are:
+In each condition, the participant sits facing Reachy Mini and has a conversation about the following topics:
 
 - **Place:** "Tell the robot about a place you like to spend time, and why you like it."
 - **Meal:** "Tell the robot about a meal you really enjoy, and what makes it special."
 
-We chose these topics because anyone can talk about them without special knowledge, and they're personal enough to encourage natural, flowing speech with pauses. The facilitator reads the same instructions before each condition:
+We chose these topics because anyone can talk about them without special knowledge, and they're personal enough to encourage natural, flowing speech. The facilitator reads the same instructions before each condition:
 
-> "For the next three minutes, please talk to the robot about the topic on this card. Speak to it as you would to someone who is listening to you. There's no right or wrong way to do this. I'll let you know when the time is up."
+> "Please respond to the robot's prompts. Speak to it as you would to someone who is listening to you. There's no right or wrong way to do this."
 
 If the participant stops talking for more than 15 seconds, the facilitator can say once: "Feel free to keep going, or add anything else that comes to mind."
 
 | Trial Status | Definition |
 |---|---|
 | Completed | The full 3-minute conversation ran, the robot behaved as intended for that condition, and the participant filled out the questionnaire. |
-| Interrupted | The conversation was paused before 3 minutes, for example because of a noise, a question from the participant, or the operator pressing stop, and then resumed. We record how long the pause lasted and why it happened. |
+| Interrupted | The conversation was paused because of a noise, a question from the participant, or the operator pressing stop, and then resumed. |
 | Failed | The condition couldn't be delivered as designed, for example the robot didn't nod in Condition B, moved in Condition A, or lost connection, or the participant chose to stop. |
 | Repeated | A failed condition that we ran again from the start. We only repeat a condition if the failure happened in the first 30 seconds, and we note the repeat in the session record. |
 
@@ -217,31 +217,23 @@ Every session takes place in the HRI Lab. Reachy Mini sits on a table at roughly
 
 **Before the participant arrives**
 
-We power on the robot, confirm the battery and motors look normal, and run a short test of both conditions to make sure the robot stays still in Condition A and nods in Condition B. We check that the log is recording and put the robot in its neutral pose.
+We power on the robot, confirm the battery and motors look normal, and run a short test of both conditions to make sure the robot stays still in Condition A and nods and head tracks in Condition B. We check that the log is recording and put the robot in its neutral pose.
 
 **Welcome and agreement to participate**
 
-> "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. The whole session takes about 10 minutes. We're interested in how people experience talking to robots. We won't record video of you, but the robot will log when you are speaking so we can measure the conversation. Your responses will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
+> "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. We're interested in how people experience talking to robots. We won't record video of you. Your responses will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
 
 **Background questions**
 
 We ask the participant their age range, how comfortable they are speaking English, and how familiar they are with robots (1–7).
 
-**First conversation**
+**Conversations**
 
-We hand the user the first topic card and read the standard instructions and signal the operator team member to start the first condition. After 3 minutes, we'll say: "Thank you, that's time." Hand over the post-conversation questionnaire.
-
-**Between conversations**
-
-While the participant fills out the questionnaire, the operator team member will return the robot to neutral and loads the second condition.
-
-**Second conversation**
-
-We hand them the second topic card and read the same instructions, then run the second condition the same way, then hand over the second questionnaire.
+We read the standard instructions and signal the operator team member to start the conversation. After the first topic conversation, the operator will begin the second topic conversation. After both topic conversations are complete, we will hand over the post-conversation questionnaire.
 
 **Debrief**
 
-> "Thank you. Now we can tell you what we were looking at. In one of your conversations, the robot nodded slightly whenever you paused, and in the other it stayed still. We wanted to know whether those small nods change how friendly or attentive the robot seems, and whether they affect how much people talk. Did you notice a difference? Do you have any questions?"
+> "Thank you. Now we can tell you what we were looking at. During your conversation, the robot had only verbal responses (condition A)/verbal responses and gestures (condition B). We wanted to know whether the presence/absence of gestures changes how friendly or attentive the robot seems, and whether they affect how much people talk. Do you have any questions?"
 
 ### Measures
 
@@ -258,7 +250,7 @@ Participants rate how well each word describes the robot on a 7-point scale, fro
 
 #### Objective Behavioral Measure
 
-Total speaking time, in seconds, during the 3-minute conversation. The app measures this from the microphone by adding up the time the participant was speaking. We also record how many times the facilitator had to prompt the participant to keep going.
+Total speaking time, in seconds, during the conversation. The app measures this from the microphone by adding up the time the participant was speaking. We also record how many times the facilitator had to prompt the participant to keep going.
 
 #### Open-Ended Question
 
@@ -328,19 +320,3 @@ Total speaking time, in seconds, during the 3-minute conversation. The app measu
 ---
 
 ## 8. Report
-
-### Introduction
-
-### Method
-
-### Results
-
-### Discussion
-
-### References
-
-### Appendix
-
----
-
-## How to Reproduce the Analysis
