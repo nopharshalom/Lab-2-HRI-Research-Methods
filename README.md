@@ -160,26 +160,26 @@ The HRIES (Spatola, Kühnlenz & Cheng, 2021) has 16 items rated on a 7-point sca
 | Element | Condition A | Condition B | Held Constant |
 |---|---|---|---|
 | Primary factor | Nod amplitude of 0°. The robot stays still when the participant pauses. | Nod amplitude of 10°. The robot gives one small nod each time the participant pauses. | Reachy response to each user comment. |
-| Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot holds its neutral pose and nods down and back up over 0.6 s at each pause. | Starting pose, idle antenna position, gaze direction, and return to neutral at the end. |
-| Interaction | The participant talks to the robot for 3 minutes about an assigned prompt. | Same task, using the other prompt. | Instructions, 3-minute time limit, room setup, facilitator, and operator. |
+| Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot does not hold its neutral pose and nods down and back up over 0.6 s while tracking the participants head. | Starting and ending poses are positioned at neutral. |
+| Interaction | The participant talks to the robot about assigned prompts. | Same task. | Instructions, room setup, facilitator, and operator. |
 
 ### Participants
 
 #### Target Population and Sampling Rationale
 
-Our target population is adults who might talk to a social robot in everyday settings, such as at home, at a front desk or in a classroom. For this pilot, we recruited at least four adult volunteers from the Cornell Tech community who are not members of our team. We used a convenience sample because the goal of a pilot is to test whether the task, the robot behavior and our measures work before running a larger study, not to make claims about the general population.
+Our target population is adults who might talk to a social robot in everyday settings, such as at home, at a front desk or in a classroom. For this pilot, we recruited four adult volunteers from the Cornell Tech community who are not members of our team. We used a convenience sample because the goal of a pilot is to test whether the task, the robot behavior and our measures work before running a larger study, not to make claims about the general population.
 
 #### Demographics, Robot Familiarity, and Condition Order
 
-We collected only information that could reasonably affect how someone talks to or judges a robot: age range, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given an ID, and their condition order and prompt order were assigned before their session began. Pairing the orders this way means each condition is seen first twice and each prompt is used with each condition twice.
+We collected only information that could reasonably affect how someone talks to or judges a robot: age range, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given an ID, and their condition was assigned before their session began. This means that each condition is seen twice and all participants get the same prompts.
 
 
-| Participant ID | Age Range | English Comfort | Robot Familiarity (1–7) | Condition Order | Prompt Order |
+| Participant ID | Age Range | English Comfort | Robot Familiarity (1–7) | Condition Order | Prompts Used |
 |---|---|---|---|---|---|
 | P01 | | | | A then B | Place, then Meal |
 | P02 | | | | B then A | Place, then Meal |
-| P03 | | | | A then B | Meal, then Place |
-| P04 | | | | B then A | Meal, then Place |
+| P03 | | | | A then B | Place, then Meal |
+| P04 | | | | B then A | Place, then Meal |
 
 #### Limits on Transferability
 
