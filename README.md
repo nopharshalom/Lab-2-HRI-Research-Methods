@@ -53,7 +53,7 @@ PY
 ```
 ### Stage Markers (Screenshot / Log Excerpt)
 
-<img src="images/export.jpeg">
+<img src="images/export.jpg">
 
 ### Changes, Expected Outcomes, and Actual Outcomes
 
