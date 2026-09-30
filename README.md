@@ -80,8 +80,9 @@ In any case, our final project topic will include interactive features that enab
 
 ### Robot-Only Demonstration
 
-[Watch the robot demo](images/conditionA.mov)
-[Watch the robot demo](images/conditionB.mov)
+[▶️ Watch the condition A demo](images/conditionA.mov)
+[▶️ Watch the condition B demo](images/conditionB.mov)
+
 ---
 
 ## 4. HRI Research Questions
