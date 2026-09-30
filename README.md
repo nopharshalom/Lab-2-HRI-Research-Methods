@@ -67,14 +67,14 @@ With the Hello World code, we edited it to include face tracking alongside the a
 
 ### Final-Project Topic and App Capabilities
 
-In any case, our final project topic will include interactive features that enable the user to converse with Reachy Mini. Those conversations will require both conversation feedback and gestures, alongside face tracking to keep the user engaged. Because our target audience will be middle school children, we want the experience to be as intuitive as possible. This includes making sure that they feel heard and supported by the Reachy Mini, regardless of the task at hand. We are incorporating the capabilities from the Conversational App and the Greetings App for Reachy Mini.
+In any case, our final project topic will include interactive features that enable the user to converse with Reachy Mini. Those conversations will require both conversation feedback and face tracking to keep the user engaged. Because our target audience will be middle school children, we want the experience to be as intuitive as possible. This includes making sure that they feel heard and supported by the Reachy Mini, regardless of the task at hand. We are incorporating the capabilities from the Conversational App and the Greetings App for Reachy Mini.
 
 ### Integration Map
 
 | Source App | Capability Reused | Modified | Interaction Goal | Final-Project Connection |
 |---|---|---|---|---|
 | Reachy Mini Conversation App | We used the verbal greetings from the beginning and end of the conversation. | We modified the prompt that the user recieves (e.g. the question asked) as well as the feedback responses provided to the user from Reachy as they converse.| The goal was to make sure that the user feels verbally assured as they speak, to make sure that they know they're heard.| In a normal conversation, the user would need to know that they are being heard and engaged with.|
-| Gestures Library | We used the initial gestures (head nodding, antenna crossing, etc.)| We added facial tracking for a smoother user experience overall. | The goal was for maximum attentiveness from the robot, almost as if they are human.| Immersiveness and human-like attention is the goal, especially when it comes to children because they like to get attention.|
+| Gestures Library | We used the initial greeting gestures (head nodding, antenna crossing, etc.)| We added facial tracking for a smoother user experience overall. | The goal was for maximum attentiveness from the robot, almost as if they are human.| Immersiveness and human-like attention is the goal, especially when it comes to children because they like to get attention.|
 
 ### Setup, Launch, and Stop Instructions
 
@@ -89,22 +89,22 @@ In any case, our final project topic will include interactive features that enab
 ## 4. HRI Research Questions
 
 ### Problem Statement
-When people talk to someone, they rely on small listener signals, like nods, to judge whether they are being heard. These signals are called backchannels (Yngve, 1970). Social robots are increasingly deployed as conversational partners in homes, schools and care settings, yet many stay motionless while a person speaks. A robot that stays still while listening may come across as inattentive or less socially present, even if its spoken responses are appropriate. Prior work shows that nonverbal backchanneling from virtual agents increases rapport (Gratch et al., 2007) and that robot backchanneling affects how engaged speakers are (Park et al., 2017). Less is known about whether a simple, low-degree-of-freedom robot like Reachy Mini can produce this effect with head nods alone. This pilot study tests whether adding active-listening nods changes how sociable adults perceive Reachy Mini to be during a short conversation, and whether nods affect how long participants choose to speak.
+When people talk to someone, they rely on small listener signals, like nods, to judge whether they are being heard. These signals are called backchannels (Yngve, 1970). Social robots are increasingly deployed as conversational partners in homes, schools and care settings, yet many stay motionless while a person speaks. A robot that stays still while listening may come across as inattentive or less socially present, even if its spoken responses are appropriate. Prior work shows that nonverbal backchanneling from virtual agents increases rapport (Gratch et al., 2007) and that robot backchanneling affects how engaged speakers are (Park et al., 2017). Less is known about whether a simple, low-degree-of-freedom robot like Reachy Mini can produce this effect with head movement alone mimicking eye contact. This pilot study tests whether adding active-listening movements changes how sociable adults perceive Reachy Mini to be during a short conversation, and whether these movements affect how long participants choose to speak.
 
 ### Construct Map
 
 | Claim | Manipulation | Measures | Expected Evidence |
 |---|---|---|---|
-| Active-listening nods make Reachy Mini seem more sociable | `NOD_AMPLITUDE_DEG`: 0° (A) vs 10° (B), triggered throughout the conversation | HRIES sociability (primary) | Higher sociability scores in Condition B than in Condition A for most participants |
+| Active-listening movements make Reachy Mini seem more sociable | Verbal responses only vs verbal responses and head movement | HRIES sociability (primary) | Higher sociability scores in Condition B than in Condition A for most participants |
 | Participants notice the listening behavior | Same as above | Manipulation-check item | Higher agreement in Condition B than in Condition A |
-| Nods encourage participants to keep talking | Same as above | Speaking time (s) | Longer speaking time in Condition B than in Condition A |
+| Movement encourages participants to keep talking | Same as above | Speaking time (s) | Longer speaking time in Condition B than in Condition A |
 
 #### Independent Variable
 
-`NOD_AMPLITUDE_DEG` is the peak downward head pitch, in degrees, of the nod the robot performs when it detects a pause in the participant's speech.
+The presence or absence of head movements mimicking active listening.
 
-- **Condition A (baseline):** 0°. The conversational engagement responses from Reachy continue, but no movement is produced.
-- **Condition B (comparison):** 10°. The robot performs head tracking and the head nodding over NOD_DURATION_S = 0.6 seconds.
+- **Condition A (baseline):** The conversational engagement responses from Reachy continue, but no movement is produced.
+- **Condition B (comparison):** The robot performs head tracking in addition to responses.
 
 In both conditions, the Reachy Mini responds to the user with the same prompts, questions, tone of voice, verbal greetings, and order of comments.
 
@@ -120,16 +120,15 @@ After each completed run, participants rate the statement "The robot responded t
 
 #### Controls
 
-- The robot's idle pose, antenna position, gaze direction, and start and end pose are identical in both conditions.
-- Two conversation prompts of similar difficulty are used, and the pairing of prompt to condition is counterbalanced.
+- The robot's idle pose, antenna position, gaze direction, and start and end pose (neutral) are identical in both conditions.
+- The conversation topic (place) and verbal responses are the same across all participants and within-subject conditions.
 - The room layout, participant seat distance from the robot, lighting and facilitator position are the same for every session.
 - The facilitator reads a standardized script and does not react to the robot's behavior.
-- Condition order is counterbalanced (AB, BA, AB, BA).
-- Conversation topic order is consistent (place, food)
+- All participants receive both condition in the same order (A, then B)
 
 #### Potential Confounds
 
-- **Prompt content:** One prompt may be easier to talk about.
+- **Prompt content:** The prompt may be difficult to talk about.
 - **Order and novelty effects:** Participants may talk more or rate the robot differently in the second session simply because the robot is no longer novel.
 - **Detection errors:** Facilitator robot response timing may cause disruptions in the conversational flow between the user and robot.
 - **Facilitator presence:** Participants may speak to please the facilitator rather than responding to the robot. The facilitator sits out of the participant's line of sight.
@@ -145,11 +144,11 @@ The HRIES (Spatola, Kühnlenz & Cheng, 2021) has 16 items rated on a 7-point sca
 
 ### Research Questions and Hypotheses
 
-**H1 (confirmatory):** Participants will report higher HRIES sociability scores in the nodding condition (B, 10°) than in the still condition (A, 0°).
+**H1 (confirmatory):** Participants will report higher HRIES sociability scores in the movement condition (B) than in the still condition (A).
 
-**H2 (confirmatory):** Participants will speak longer in the nodding condition (B) than in the still condition (A).
+**H2 (confirmatory):** Participants will speak longer in the movement condition (B) than in the still condition (A).
 
-**RQ1 (exploratory):** How do active-listening nods affect participants' HRIES disturbance ratings and their descriptions of the robot's behavior?
+**RQ1 (exploratory):** How do active-listening movements affect participants' HRIES disturbance ratings and their descriptions of the robot's behavior?
 
 ---
 
@@ -159,8 +158,8 @@ The HRIES (Spatola, Kühnlenz & Cheng, 2021) has 16 items rated on a 7-point sca
 
 | Element | Condition A | Condition B | Held Constant |
 |---|---|---|---|
-| Primary factor | Nod amplitude of 0°. The robot stays still when the participant pauses. | Nod amplitude of 10°. The robot gives one small nod each time the participant pauses. | Reachy response to each user comment. |
-| Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot does not hold its neutral pose and nods down and back up over 0.6 s while tracking the participants head. | Starting and ending poses are positioned at neutral. |
+| Primary factor | No active listening movements. | Head tracking, active listening movements. | Reachy's verbal responses to each user comment. |
+| Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot does not hold its neutral pose and tracks the user's head movements. | Starting and ending poses are positioned at neutral. |
 | Interaction | The participant talks to the robot about assigned prompts. | Same task. | Instructions, room setup, facilitator, and operator. |
 
 ### Participants
@@ -171,7 +170,7 @@ Our target population is adults who might talk to a social robot in everyday set
 
 #### Demographics, Robot Familiarity, and Condition Order
 
-We collected only information that could reasonably affect how someone talks to or judges a robot: age range, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given an ID, and their condition was assigned before their session began. This means that each condition is seen twice and all participants get the same prompts.
+We collected only information that could reasonably affect how someone talks to or judges a robot: age range, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given a unique ID. All participants receive condition A then B and get the same verbal prompts.
 
 
 | Participant ID | Age | English Comfort | Robot Familiarity (1–7) |
@@ -183,7 +182,7 @@ We collected only information that could reasonably affect how someone talks to 
 
 #### Limits on Transferability
 
-With only four participants, all drawn from a tech-focused graduate campus, our results can't tell us how people in general would react to a nodding robot. Our participants are likely more comfortable with technology and more curious about robots than most people. They also know they are taking part in a class study, which may make them more patient or more generous in their ratings. Any pattern we find should be treated as a reason to run a larger study, not as a conclusion
+With only four participants, all drawn from a tech-focused graduate campus, our results can't tell us how people in general would react to an actively listening robot. Our participants are likely more comfortable with technology and more curious about robots than most people. They also know they are taking part in a class study, which may make them more patient or more generous in their ratings. Any pattern we find should be treated as a reason to run a larger study, not as a conclusion
 
 ### Study Task
 
@@ -191,12 +190,11 @@ With only four participants, all drawn from a tech-focused graduate campus, our 
 
 #### Trial Definitions
 
-In each condition, the participant sits facing Reachy Mini and has a conversation about the following topics:
+In each condition, the participant sits facing Reachy Mini and has a conversation about the following topic:
 
 - **Place:** "Tell the robot about a place you like to spend time, and why you like it."
-- **Meal:** "Tell the robot about a meal you really enjoy, and what makes it special."
 
-We chose these topics because anyone can talk about them without special knowledge, and they're personal enough to encourage natural, flowing speech. The facilitator reads the same instructions before each condition:
+We chose this topic because anyone can talk about it without special knowledge, and they're personal enough to encourage natural, flowing speech. The facilitator reads the same instructions before each condition:
 
 > "Please respond to the robot's prompts. Speak to it as you would to someone who is listening to you. There's no right or wrong way to do this."
 
@@ -204,9 +202,9 @@ If the participant stops talking for more than 15 seconds, the facilitator can s
 
 | Trial Status | Definition |
 |---|---|
-| Completed | The full 3-minute conversation ran, the robot behaved as intended for that condition, and the participant filled out the questionnaire. |
+| Completed | The full conversation ran, the robot behaved as intended for each condition, and the participant filled out the questionnaire. |
 | Interrupted | The conversation was paused because of a noise, a question from the participant, or the operator pressing stop, and then resumed. |
-| Failed | The condition couldn't be delivered as designed, for example the robot didn't nod in Condition B, moved in Condition A, or lost connection, or the participant chose to stop. |
+| Failed | The condition couldn't be delivered as designed, for example the robot moved in Condition A, didn't move in Condition B, or lost connection, or the participant chose to stop. |
 | Repeated | A failed condition that we ran again from the start. We only repeat a condition if the failure happened in the first 30 seconds, and we note the repeat in the session record. |
 
 #### Setting and Environmental Controls
@@ -221,7 +219,7 @@ We power on the robot, confirm the battery and motors look normal, and run a sho
 
 **Welcome and agreement to participate**
 
-> "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. We're interested in how people experience talking to robots. We won't record video of you. Your responses will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
+> "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. We're interested in how people experience talking to robots. This interaction will not be recorded. Your responses to the questionnaire will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
 
 **Background questions**
 
@@ -229,11 +227,11 @@ We ask the participant their age range, how comfortable they are speaking Englis
 
 **Conversations**
 
-We read the standard instructions and signal the operator team member to start the conversation. After the first topic conversation, the operator will begin the second topic conversation. After both topic conversations are complete, we will hand over the post-conversation questionnaire.
+We read the standard instructions and signal the operator team member to start the conversation. After the first condition conversation, the operator will begin the second condition conversation. After each conversation is complete, we will verbally administer the questionnaire, meaning each participant will complete the questionnaire twice.
 
 **Debrief**
 
-> "Thank you. Now we can tell you what we were looking at. During your conversation, the robot had only verbal responses (condition A)/verbal responses and gestures (condition B). We wanted to know whether the presence/absence of gestures changes how friendly or attentive the robot seems, and whether they affect how much people talk. Do you have any questions?"
+> "Thank you. Now we can tell you what we were looking at. During the first conversation, the robot had only verbal responses. During the second conversation, the robot had both verbal responses and head movements mimicking active listening. We wanted to know whether the presence/absence of movement changes how friendly or attentive the robot seems, and whether they affect how much people talk. Do you have any questions?"
 
 ### Measures
 
