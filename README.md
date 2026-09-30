@@ -91,46 +91,44 @@ When people talk to someone, they rely on small listener signals, like nods, to 
 
 | Claim | Manipulation | Measures | Expected Evidence |
 |---|---|---|---|
-| Active-listening nods make Reachy Mini seem more sociable | `nod_amplitude_deg`: 0° (A) vs 10° (B), triggered at speech pauses | HRIES sociability (primary) | Higher sociability scores in Condition B than in Condition A for most participants |
+| Active-listening nods make Reachy Mini seem more sociable | `NOD_AMPLITUDE_DEG`: 0° (A) vs 10° (B), triggered throughout the conversation | HRIES sociability (primary) | Higher sociability scores in Condition B than in Condition A for most participants |
 | Participants notice the listening behavior | Same as above | Manipulation-check item | Higher agreement in Condition B than in Condition A |
 | Nods encourage participants to keep talking | Same as above | Speaking time (s) | Longer speaking time in Condition B than in Condition A |
 | Nods may feel unnatural if mistimed (exploratory) | Same as above | HRIES disturbance; open-ended responses | No predicted direction; qualitative comments on timing or naturalness |
 
 #### Independent Variable
 
-`nod_amplitude_deg` is the peak downward head pitch, in degrees, of the nod the robot performs when it detects a pause in the participant's speech.
+`NOD_AMPLITUDE_DEG` is the peak downward head pitch, in degrees, of the nod the robot performs when it detects a pause in the participant's speech.
 
-- **Condition A (baseline):** 0°. The pause detector still runs and logs each pause event, but no movement is produced.
-- **Condition B (comparison):** 10°. The robot performs one nod down and back to neutral over 0.6 s.
+- **Condition A (baseline):** 0°. The conversational engagement responses from Reachy continue, but no movement is produced.
+- **Condition B (comparison):** 10°. The robot performs head tracking and the head nodding over NOD_DURATION_S = 0.6 seconds.
 
-In both conditions, a pause is detected when the microphone registers at least 700 ms of silence following speech. Consecutive nods are separated by at least 3 s.
+In both conditions, the Reachy Mini responds to the user with the same prompts, questions, tone of voice, verbal greetings, and order of comments.
 
 #### Outcomes
 
 - **Primary outcome:** HRIES sociability score. This is the mean of the four sociability items, each rated on a 7-point scale, so scores range from 1 to 7. Higher values mean the robot was perceived as more sociable.
 - **Secondary outcomes:** HRIES animacy, agency and disturbance scores, each the mean of its four items. Higher values mean greater animacy, agency or disturbance, respectively.
-- **Objective outcome:** total participant speaking time in seconds during the 3-minute conversation window, computed from the app's audio log.
+- **Objective outcome:** total participant speaking time in seconds during the conversation window.
 
 #### Manipulation Check
 
-After each condition, participants rate the statement "The robot responded to what I was saying with head movements" from 1 (strongly disagree) to 7 (strongly agree). The manipulation is considered salient if ratings are higher in Condition B than in Condition A.
+After each completed run, participants rate the statement "The robot responded to what I was saying with head movements" from 1 (strongly disagree) to 7 (strongly agree). The manipulation is considered noticeable if ratings are higher in Condition B than in Condition A.
 
 #### Controls
 
-- The pause-detection threshold (700 ms) and minimum nod interval (3 s) are the same in both conditions.
 - The robot's idle pose, antenna position, gaze direction, and start and end pose are identical in both conditions.
 - Two conversation prompts of similar difficulty are used, and the pairing of prompt to condition is counterbalanced.
-- Each conversation window lasts 3 minutes.
 - The room layout, participant seat distance from the robot, lighting and facilitator position are the same for every session.
 - The facilitator reads a standardized script and does not react to the robot's behavior.
 - Condition order is counterbalanced (AB, BA, AB, BA).
+- Conversation topic order is consistent (place, food)
 
 #### Potential Confounds
 
-- **Prompt content:** One prompt may be easier to talk about. Counterbalancing prompts across conditions mitigates this.
-- **Order and novelty effects:** Participants may talk more or rate the robot differently in the second session simply because the robot is no longer novel. Counterbalancing condition order mitigates this.
-- **Detection errors:** Missed or false pause detections may change the number and timing of nods across participants. Each pause event is logged so this can be examined.
-- **Individual talkativeness:** Some participants naturally speak more than others. The within-subjects design means each person is compared with themselves.
+- **Prompt content:** One prompt may be easier to talk about.
+- **Order and novelty effects:** Participants may talk more or rate the robot differently in the second session simply because the robot is no longer novel.
+- **Detection errors:** Facilitator robot response timing may cause disruptions in the conversational flow between the user and robot.
 - **Facilitator presence:** Participants may speak to please the facilitator rather than responding to the robot. The facilitator sits out of the participant's line of sight.
 
 #### Measurement Scales and Construct Validity
@@ -141,8 +139,6 @@ The HRIES (Spatola, Kühnlenz & Cheng, 2021) has 16 items rated on a 7-point sca
 - **Animacy:** human-like, real, alive, natural
 - **Agency:** self-reliant, rational, intentional, intelligent
 - **Disturbance:** scary, strange, creepy, weird
-
-The scale was developed and validated through factor analysis across multiple studies, and each dimension is scored separately. With only four participants, internal-consistency statistics such as Cronbach's alpha would not be meaningful, so they are not reported. Construct validity is supported instead by three things: the manipulation check, the objective speaking-time measure, and the open-ended responses. Together these indicate whether participants noticed the nods and interpreted them as listening behavior.
 
 ### Research Questions and Hypotheses
 
