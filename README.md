@@ -72,7 +72,7 @@ In any case, our final project topic will include interactive features that enab
 ### Integration Map
 
 | Source App | Capability Reused | Modified | Interaction Goal | Final-Project Connection |
-|---|---|---|---|
+|---|---|---|---|---|
 | Reachy Mini Conversation App | We used the verbal greetings from the beginning and end of the conversation. | We modified the prompt that the user recieves (e.g. the question asked) as well as the feedback responses provided to the user from Reachy as they converse.| The goal was to make sure that the user feels verbally assured as they speak, to make sure that they know they're heard.| In a normal conversation, the user would need to know that they are being heard and engaged with.|
 | Gestures Library | We used the initial gestures (head nodding, antenna crossing, etc.)| We added facial tracking for a smoother user experience overall. | The goal was for maximum attentiveness from the robot, almost as if they are human.| Immersiveness and human-like attention is the goal, especially when it comes to children because they like to get attention.|
 
