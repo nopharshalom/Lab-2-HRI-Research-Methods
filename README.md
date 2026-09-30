@@ -79,7 +79,8 @@ In any case, our final project topic will include interactive features that enab
 ### Setup, Launch, and Stop Instructions
 
 ### Robot-Only Demonstration
-
+[Watch the robot demo](images/conditionA.mov)
+[Watch the robot demo](images/conditionB.mov)
 ---
 
 ## 4. HRI Research Questions
