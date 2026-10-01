@@ -486,8 +486,89 @@ Since our final project targets middle school children, a second phase would rep
 
 ## 8. Report
 ### Introduction
+### Introduction
+
+When people talk, they rely on small signals from the listener, such as nods, short verbal replies like "mm-hmm," and eye contact, to tell whether they are being heard. These listener signals are known as backchannels (Yngve, 1970), and they help keep a conversation going by showing the speaker that the listener is paying attention. As social robots are increasingly used as conversation partners in homes, schools, and care settings, they need to show the same kind of attentiveness. However, many robots stay completely still while a person speaks. A robot that does not move while listening may seem inattentive or less socially present, even if what it says is appropriate.
+
+Prior work suggests that nonverbal listening behavior matters. Gratch et al. (2007) found that virtual agents that responded to speakers with nods and posture shifts created a stronger sense of rapport than agents that did not. In a study with a physical robot, Park et al. (2017) found that children told longer, more engaged stories to a robot that gave attentive backchannel responses than to one that did not. Less is known about whether a simple robot with only a few degrees of freedom, like Reachy Mini, can produce similar effects through head movement alone. Reachy Mini has no face that can make expressions and no arms, so any sign of attention has to come from its head, its antennas, and its voice.
+
+This question also matters for our final project, which will explore conversational interactions between Reachy Mini and middle school children. If simple listening movements make Reachy seem more sociable and keep people talking, they are a low-cost way to make conversations with small robots feel more natural. If they do not, designers may need to focus on other cues, such as what the robot says.
+
+To explore this, we ran a small within-subjects pilot study in which adult participants had two short conversations with Reachy Mini. In one condition the robot only spoke; in the other it also moved its head in active-listening ways. We measured how participants perceived the robot using the Human–Robot Interaction Evaluation Scale (HRIES; Spatola et al., 2021), along with behavioral observations and an open-ended question. Our research questions and hypotheses were:
+
+- **H1 (confirmatory):** Participants will report higher HRIES sociability scores when Reachy Mini uses active-listening movements (Condition B) than when it does not move (Condition A).
+- **H2 (confirmatory):** Participants will speak longer in Condition B than in Condition A.
+- **RQ1 (exploratory):** How do active-listening movements affect participants' HRIES disturbance ratings and their descriptions of the robot's behavior?
+
 ### Method
+### Method
+
+#### Reachy Mini Application
+
+We built a custom Python application, `talking_study_app.py`, that combines capabilities adapted from two Reachy Mini apps. From the Conversation App, we adapted turn-taking and verbal responses: the robot greets the participant, asks a question, replies when the participant pauses, and says goodbye. From the Greetings App, we adapted the greeting bow and face tracking, which turns Reachy's head toward the participant's face.
+
+Reachy Mini cannot actually understand what participants say, so the study used a Wizard-of-Oz setup: a team member pressed a key each time the participant paused, which triggered the robot's next reply. The robot's voice was generated with the macOS text-to-speech voice at 175 words per minute and played through a laptop speaker placed directly behind the robot. Replies cycled in a fixed order: "Got it," "I see," "Tell me more," "That sounds interesting," "Oh, really?" and "Go on." The app ran from a laptop connected to the robot over the HRIclass_2G WiFi network. Each run was logged automatically with the participant ID, condition, start and end times, number of marked pauses, and trial status.
+
+#### Experimental Conditions
+
+The study manipulated one factor: whether Reachy Mini produced active-listening movement.
+
+- **Condition A (speech only):** Reachy spoke the same greeting, question, replies, and goodbye as in Condition B, but stayed in its neutral pose the whole time.
+- **Condition B (speech + movement):** In addition to the same speech, Reachy bowed during the greeting, held an attentive listening pose, tracked the participant's face, nodded (10° amplitude, 0.6 s) with each reply, and moved its antennas during the goodbye.
+
+Everything else was held constant across conditions: the robot's words and their order, voice and speaking rate, the prompt, the 3-minute conversation window, the neutral start and end pose, the room setup, and the facilitator and operator. The full conditions table is in Section 5 and the Appendix.
+
+#### Participants
+
+We recruited four adult volunteers (P01–P04) from the Cornell Tech community who were not members of our team. Participants were 22–27 years old (M = 24.3), all fluent in English, and reported low-to-moderate familiarity with robots (M = 2.75 on a 1–7 scale). We used a convenience sample because the goal of this pilot was to test whether the task, robot behavior, and measures worked, not to generalize to a broader population. Each participant was assigned a de-identified ID, and no names or contact information were stored.
+
+#### Task
+
+In each condition, participants had a short conversation with Reachy Mini about the same topic: a place they like to visit. Reachy asked, "Can you tell me about a place you like to visit?" and participants responded as they would to someone listening to them. We chose this topic because it requires no special knowledge and encourages natural, personal speech. Each conversation lasted up to 3 minutes and ended when the time ran out or the participant finished talking.
+
+#### Setting
+
+All sessions took place in the same lab room. Reachy Mini sat on a table at roughly the participant's seated eye level, and the participant sat about 1 meter in front of it, facing the robot's camera. The facilitator sat to the side, out of the participant's direct line of sight. A second team member sat at the laptop that controlled the robot, also out of direct view, and could stop the robot at any time. Room layout, seating, lighting, and positions were the same for every session.
+
+#### Procedure
+
+Before each session, we powered on the robot, confirmed that the motors and logging were working, and ran a short test of both conditions. When the participant arrived, the facilitator explained the study, answered questions without revealing the hypotheses, and confirmed their agreement to participate. We then collected the participant's age, English comfort, and robot familiarity.
+
+The facilitator read the same standardized instructions before each conversation: "Please respond to the robot's prompts. Speak to it as you would to someone who is listening to you. There's no right or wrong way to do this." All participants completed Condition A first and Condition B second. After each conversation, the facilitator read the questionnaire aloud and recorded the participant's answers, so each participant completed it twice. After both conversations, the facilitator debriefed the participant on the study's purpose. Finally, we checked each session record for missing data, interruptions, robot faults, and protocol deviations.
+
+**Protocol deviations:** First, condition order was not counterbalanced as the lab required; all participants received A then B. Second, total speaking time was planned as the objective measure but was not recorded, because the Wizard-of-Oz version of the app did not measure participant speech from the microphone. As a result, H2 could not be tested.
+
+#### HRIES Questionnaire
+
+Participants rated the robot after each condition using the 16-item Human–Robot Interaction Evaluation Scale (HRIES; Spatola et al., 2021). Each item is a single word rated on a 7-point scale from 1 (not at all) to 7 (very much), and the items were presented in the same mixed order each time. The items form four dimensions of four items each:
+
+- **Sociability (primary outcome):** warm, likeable, trustworthy, friendly
+- **Animacy:** human-like, real, alive, natural
+- **Agency:** self-reliant, rational, intentional, intelligent
+- **Disturbance:** scary, strange, creepy, weird
+
+Each dimension score is the average of its four items (range 1–7), and higher values mean more of that trait. For disturbance, higher scores are undesirable. The four dimensions were scored and interpreted separately and never combined into one overall score.
+
+To confirm that participants noticed the manipulation, we added one manipulation-check item after each condition: "The robot responded to what I was saying with head movements," rated from 1 (strongly disagree) to 7 (strongly agree).
+
+#### Objective Measure
+
+Our planned objective measure was total participant speaking time during each conversation. Because it was not recorded (see Procedure), we relied on the facilitator's behavioral observations of how each participant moved during the session, for example whether they moved their head while talking or sat still. This matters because the robot's face tracking only moves when the participant moves, so participant movement affects how much robot movement each person actually saw. The app also logged the number of pauses the operator marked and the length of each conversation.
+
+#### Qualitative Prompt
+
+After each condition, participants answered one neutral, open-ended question: "How would you describe the robot's behavior while you were talking?" Answers were recorded in writing by the facilitator.
+
+#### Analysis Approach
+
+With only four participants, we did not run inferential statistics; the analysis is descriptive. For each condition, we calculated the mean, standard deviation, and median of each HRIES dimension and the manipulation check. For each participant, we calculated the within-person difference (Condition B minus Condition A) on every measure, so a positive value means a higher score when the robot moved. We also counted how many participants scored higher in Condition B, and created paired participant-level figures connecting each person's scores across conditions. All calculations are done with formulas in our Google Sheet so they can be checked and reproduced.
+
+For the open-ended answers, we developed four categories from recurring themes: endearing appearance, generic or repetitive speech, conversational timing, and reaction to robot movement. We defined each category and applied it consistently across all eight responses, counting how often each appeared in each condition. Finally, we compared the quantitative, behavioral, and qualitative evidence to see where they agreed or disagreed, and labeled the evidence for each research question as supportive, contradictory, mixed, or insufficient.
 ### Results 
 ### Discussion 
 ### References 
+- Gratch, J., Wang, N., Gerten, J., Fast, E., & Duffy, R. (2007). Creating rapport with virtual agents. In *Intelligent Virtual Agents (IVA 2007)*, Lecture Notes in Computer Science, vol. 4722 (pp. 125–138). Springer.
+- Park, H. W., Gelsomini, M., Lee, J. J., & Breazeal, C. (2017). Telling stories to robots: The effect of backchanneling on a child's storytelling. In *Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (HRI '17)* (pp. 100–108).
+- Spatola, N., Kühnlenz, B., & Cheng, G. (2021). Perception and evaluation in human–robot interaction: The Human–Robot Interaction Evaluation Scale (HRIES)—A multicomponent approach of anthropomorphism. *International Journal of Social Robotics, 13*, 1517–1539.
+- Yngve, V. H. (1970). On getting a word in edgewise. In *Papers from the Sixth Regional Meeting of the Chicago Linguistic Society* (pp. 567–578).
 ### Appendix
