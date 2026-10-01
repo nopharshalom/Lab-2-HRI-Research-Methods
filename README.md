@@ -322,10 +322,12 @@ Values are mean (SD) [median]. The difference column is Condition B minus Condit
 
 Each line shows one participant's score in Condition A (speech only) and Condition B (speech + movement). Scores range from 1 to 7.
 
-![Sociability by participant](figures/paired_sociability.png)
-![Animacy by participant](figures/paired_animacy.png)
-![Agency by participant](figures/paired_agency.png)
-![Disturbance by participant](figures/paired_disturbance.png)
+<p>
+  <img src="figures/paired_sociability.png" width="49%" alt="Sociability by participant">
+  <img src="figures/paired_animacy.png" width="49%" alt="Animacy by participant">
+  <img src="figures/paired_agency.png" width="49%" alt="Agency by participant">
+  <img src="figures/paired_disturbance.png" width="49%" alt="Disturbance by participant">
+</p>
 
 ### Interpretation by HRIES Dimension
 
