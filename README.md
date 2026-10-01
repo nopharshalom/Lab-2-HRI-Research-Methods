@@ -77,6 +77,45 @@ In any case, our final project topic will include interactive features that enab
 | Gestures Library | We used the initial greeting gestures (head nodding, antenna crossing, etc.)| We added facial tracking for a smoother user experience overall. | The goal was for maximum attentiveness from the robot, almost as if they are human.| Immersiveness and human-like attention is the goal, especially when it comes to children because they like to get attention.|
 
 ### Setup, Launch, and Stop Instructions
+#### Setup
+
+We followed the course's Reachy Mini Access Guide to connect to the robot (Option 2, HRIclass_2G WiFi in Tata 429). A few extra things are specific to our app:
+
+1. Make sure no other apps are running in Reachy Mini Control, since only one program can control the robot at a time.
+2. In the folder with `talking_study_app.py`, activate our environment:
+
+```
+source reachy_mini_env/bin/activate
+```
+
+3. Turn the laptop volume up and place the laptop right behind the robot so Reachy's voice seems to come from Reachy.
+4. Seat the participant about 50–80 cm in front of the robot, facing its camera so face tracking can pick them up, and keep at least 30 cm clear around the robot.### Robot-Only Demonstration
+
+#### Launch
+
+Each participant did both conditions with the same "place" prompt. We alternated which condition came first so order wouldn't affect the results:
+
+| Participant | First Run | Second Run |
+|---|---|---|
+| P01 | A | B |
+| P02 | B | A |
+| P03 | A | B |
+| P04 | B | A |
+
+To run a session, use the participant's ID and condition:
+
+```
+python talking_study_app.py --participant P01 --condition A --prompt place
+```
+
+The facilitator presses **Enter** once the participant is seated. Reachy then greets them and asks the prompt. Each time the participant pauses, the facilitator presses **Enter** again and Reachy responds (and nods in Condition B). This is a "Wizard-of-Oz" setup, since Reachy can't actually understand speech. After 3 minutes, Reachy says goodbye and returns to neutral.
+
+#### Stop
+
+- **End the conversation early:** type `q` and press **Enter**. Reachy says goodbye and finishes normally.
+- **Stop the robot immediately:** press **Ctrl+C**. Reachy returns to neutral, and the run is logged as "Interrupted."
+
+One teammate stayed at the laptop during every session so they could stop the robot right away if needed.
 
 ### Robot-Only Demonstration
 
