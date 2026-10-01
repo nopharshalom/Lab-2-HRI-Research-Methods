@@ -577,7 +577,7 @@ Despite the observed trends in the dimensional means mentioned above, participan
 
 #### Objective Findings
 
-Because we did not record speaking time in our final app setup, we cannot report on the findings of this intended objective measure. Alternatively, objective behavioral observations indicated differences in participant movement during conversations, with more movement occurring under Condition B. However, no quantitative behavioral comparisons were available.
+Because our final app used a Wizard-of-Oz setup in which the facilitator triggered Reachy's responses, without the functionality to measure participant speech from the microphone, we did not record speaking times, our intended objective measure. We list this as a deviation from our planned measures and cannot report on the associated findings. Alternatively, objective behavioral observations indicated differences in participant movement during conversations, with more movement occurring under Condition B. However, no quantitative behavioral comparisons were available.
 
 #### Qualitative Findings
 
@@ -597,9 +597,29 @@ Figures 1–4 show participant-level paired HRIES scores for sociability, animac
 </p>
 
 #### Missing Data
+
+Aside from the procedural deviation from the objective measure of speaking time, no data were missing. All participants completed both conditions, and all eight trials, with the corresponding HRIES scores and qualitative responses, were included in the analysis.
+
 #### Protocol Deviations
 
+Condition order was not counterbalanced as specified in the lab protocol; all participants completed Condition A before Condition B. This was a decision made to ensure the within-subject nature of our study with no differences between subjects, but is still noted as a procedural deviation. Additionally, total speaking time was not recorded, preventing analysis of our second hypothesis that participants will speak longer in Condition B than in Condition A.
+
 ### Discussion 
+
+#### Research Question Answers
+
+
+
+#### Evidence Interpretation, 
+
+#### Alternative Explanations
+
+#### Limitations
+
+#### Design Implications
+
+#### Proposed Follow-Up Study
+
 ### References 
 - Gratch, J., Wang, N., Gerten, J., Fast, E., & Duffy, R. (2007). Creating rapport with virtual agents. In *Intelligent Virtual Agents (IVA 2007)*, Lecture Notes in Computer Science, vol. 4722 (pp. 125–138). Springer.
 - Park, H. W., Gelsomini, M., Lee, J. J., & Breazeal, C. (2017). Telling stories to robots: The effect of backchanneling on a child's storytelling. In *Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (HRI '17)* (pp. 100–108).
