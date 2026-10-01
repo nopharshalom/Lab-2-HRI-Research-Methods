@@ -258,11 +258,6 @@ Total speaking time, in seconds, during the conversation. The app measures this 
 
 "The robot responded to what I was saying with head movements." Rated from 1 (strongly disagree) to 7 (strongly agree).
 
-
-### Interruptions, Missing Data, Robot Faults, and Protocol Deviations
-
-None
-
 ---
 
 ## 6. Research Data
@@ -271,40 +266,41 @@ None
 
 ### Data Dictionary
 
-| Variable | Definition | Response Scale | Units | Missing-Data Code |
-|---|---|---|---|---|
-| participant_id | De-identified participant ID | P01–P04 | none | NA |
-| age | Participant's age | whole number | years | NA |
-| english_comfort | How comfortable the participant is speaking English | self-described (e.g., "fluent") | none | NA |
-| robot_familiarity | Prior experience with robots | 1 (never interacted with a robot) to 7 (work with robots regularly) | points | NA |
-| condition | Which robot behavior this row describes | A (speech only, no movement) or B (speech with greeting bow, listening pose, face tracking, nods and goodbye gesture) | none | NA |
-| movement | Whether robot movement was turned on | off (A) or on (B) | none | NA |
-| condition_order | Order in which the participant experienced the conditions | AB or BA | none | NA |
-| session_position | Whether this condition was the first or second conversation | 1 or 2 | none | NA |
-| prompt | The conversation topic the robot asked about | Place or Meal | none | NA |
-| nod_amplitude_deg | Size of the robot's nod | 0 (A) or 10 (B) | degrees | NA |
-| voice | Which speaker the robot's voice played through | laptop or robot | none | NA |
-| warm, likeable, trustworthy, friendly | HRIES sociability items | 1 (not at all) to 7 (very much) | points | NA |
-| human_like, real, alive, natural | HRIES animacy items | 1 to 7 | points | NA |
-| self_reliant, rational, intentional, intelligent | HRIES agency items | 1 to 7 | points | NA |
-| scary, strange, creepy, weird | HRIES disturbance items | 1 to 7 | points | NA |
-| sociability | Average of the four sociability items; higher means the robot seemed more sociable | 1 to 7 | points | NA |
-| animacy | Average of the four animacy items; higher means the robot seemed more alive | 1 to 7 | points | NA |
-| agency | Average of the four agency items; higher means the robot seemed more capable of acting on its own | 1 to 7 | points | NA |
-| disturbance | Average of the four disturbance items; higher means the robot seemed more unsettling | 1 to 7 | points | NA |
-| manip_check | Agreement with "The robot responded to what I was saying with head movements" | 1 (strongly disagree) to 7 (strongly agree) | points | NA |
-| conversation_s | How long the conversation lasted, from when the robot started listening until the facilitator ended it or the 180-second limit was reached | 0 to 180 | seconds | NA |
-| pause_events | Number of pauses the facilitator marked during the conversation, each of which triggered a robot reply | count | pauses | NA |
-| facilitator_prompts | Number of times the facilitator encouraged the participant to keep talking | count | prompts | NA |
-| open_response | Participant's answer to "How would you describe the robot's behavior while you were talking?" | free text | none | NA |
-| trial_status | Outcome of the trial | Completed, Interrupted, Failed, or Repeated | none | NA |
-| start_time, end_time | When the trial started and ended, from the robot's log | date and time | ISO 8601 timestamp | NA |
-| deviation_note | Anything that differed from the planned protocol | free text | none | NA |
-
+| Variable | Definition | Response Scale | Units |
+|---|---|---|---|
+| participant_id | De-identified participant ID | P01–P04 | none |
+| age | Participant's age | whole number | years |
+| english_comfort | How comfortable the participant is speaking English | self-described (e.g., "fluent") | none |
+| robot_familiarity | Prior experience with robots | 1 (never interacted with a robot) to 7 (work with robots regularly) | points |
+| condition | Which robot behavior this row describes | A (speech only, no movement) or B (speech with greeting bow, listening pose, face tracking, nods and goodbye gesture) | none |
+| movement | Whether robot movement was turned on | off (A) or on (B) | none |
+| nod_amplitude_deg | Size of the robot's nod | 0 (A) or 10 (B) | degrees |
+| warm, likeable, trustworthy, friendly | HRIES sociability items | 1 (not at all) to 7 (very much) | points |
+| human_like, real, alive, natural | HRIES animacy items | 1 to 7 | points |
+| self_reliant, rational, intentional, intelligent | HRIES agency items | 1 to 7 | points |
+| scary, strange, creepy, weird | HRIES disturbance items | 1 to 7 | points |
+| sociability | Average of the four sociability items; higher means the robot seemed more sociable | 1 to 7 | points |
+| animacy | Average of the four animacy items; higher means the robot seemed more alive | 1 to 7 | points |
+| agency | Average of the four agency items; higher means the robot seemed more capable of acting on its own | 1 to 7 | points |
+| disturbance | Average of the four disturbance items; higher means the robot seemed more unsettling | 1 to 7 | points |
+| manip_check | Agreement with "The robot responded to what I was saying with head movements" | 1 (strongly disagree) to 7 (strongly agree) | points |
+| open_response | Participant's answer to "How would you describe the robot's behavior while you were talking?" | free text | none |
+| trial_status | Outcome of the trial | Completed, Interrupted, Failed, or Repeated | none |
 
 ### Scoring Calculations
 
-### Missing Data, Exclusions, and Corrections
+Each HRIES dimension score is the average of its four items:
+
+- **Sociability** = (warm + likeable + trustworthy + friendly) ÷ 4
+- **Animacy** = (human_like + real + alive + natural) ÷ 4
+- **Agency** = (self_reliant + rational + intentional + intelligent) ÷ 4
+- **Disturbance** = (scary + strange + creepy + weird) ÷ 4
+
+For each participant, we calculate the within-person difference on every measure as their Condition B value minus their Condition A value. A positive difference means the score was higher when the robot moved.
+
+In the Google Sheet, these calculations are done with formulas in the Responses and Summary tabs, so anyone can check them by entering the raw ratings.
+
+[Raw Data Google Sheet Found Here](https://docs.google.com/spreadsheets/d/1r0SRfQDrf8Qvk5bd2O6SjLyphTbME4_NkkX86LKy_M8/edit?gid=618784505#gid=618784505)
 
 ---
 
