@@ -486,7 +486,6 @@ Since our final project targets middle school children, a second phase would rep
 
 ## 8. Report
 ### Introduction
-### Introduction
 
 When people talk, they rely on small signals from the listener, such as nods, short verbal replies like "mm-hmm," and eye contact, to tell whether they are being heard. These listener signals are known as backchannels (Yngve, 1970), and they help keep a conversation going by showing the speaker that the listener is paying attention. As social robots are increasingly used as conversation partners in homes, schools, and care settings, they need to show the same kind of attentiveness. However, many robots stay completely still while a person speaks. A robot that does not move while listening may seem inattentive or less socially present, even if what it says is appropriate.
 
@@ -500,7 +499,6 @@ To explore this, we ran a small within-subjects pilot study in which adult parti
 - **H2 (confirmatory):** Participants will speak longer in Condition B than in Condition A.
 - **RQ1 (exploratory):** How do active-listening movements affect participants' HRIES disturbance ratings and their descriptions of the robot's behavior?
 
-### Method
 ### Method
 
 #### Reachy Mini Application
@@ -564,7 +562,20 @@ After each condition, participants answered one neutral, open-ended question: "H
 With only four participants, we did not run inferential statistics; the analysis is descriptive. For each condition, we calculated the mean, standard deviation, and median of each HRIES dimension and the manipulation check. For each participant, we calculated the within-person difference (Condition B minus Condition A) on every measure, so a positive value means a higher score when the robot moved. We also counted how many participants scored higher in Condition B, and created paired participant-level figures connecting each person's scores across conditions. All calculations are done with formulas in our Google Sheet so they can be checked and reproduced.
 
 For the open-ended answers, we developed four categories from recurring themes: endearing appearance, generic or repetitive speech, conversational timing, and reaction to robot movement. We defined each category and applied it consistently across all eight responses, counting how often each appeared in each condition. Finally, we compared the quantitative, behavioral, and qualitative evidence to see where they agreed or disagreed, and labeled the evidence for each research question as supportive, contradictory, mixed, or insufficient.
+
 ### Results 
+
+#### Participant Accounting
+
+
+
+#### HRIES Results
+#### Objective Findings
+#### Qualitative Findings
+#### Figures
+#### Missing Data
+#### Protocol Deviations
+
 ### Discussion 
 ### References 
 - Gratch, J., Wang, N., Gerten, J., Fast, E., & Duffy, R. (2007). Creating rapport with virtual agents. In *Intelligent Virtual Agents (IVA 2007)*, Lecture Notes in Computer Science, vol. 4722 (pp. 125–138). Springer.
