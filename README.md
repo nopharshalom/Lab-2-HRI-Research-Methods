@@ -571,16 +571,31 @@ All four of our recruited participants (P01–P04) fully completed both conditio
 
 #### HRIES Results
 
-Following the completion of each trial, all participants engaged in the full verbal, HRIES-based questionnaire. The results captured by the HRIES questionnaire are presented in Table 1. Of particular note is the consistency of mean sociability scores across conditions (4.44). However, the remaining three HRIES dimensions saw in increase in their respective means from condition A to condition B. Animacy increased from 2.44 to 2.75, agency from 3.50 to 3.81, and disturbance from 1.44 to 1.69. The manipulation check also increased from 2.50 in condition A to 5.50 in condition B.
+Following the completion of each trial, all participants engaged in the full verbal, HRIES-based questionnaire. The results captured by the HRIES questionnaire are presented in Table 1. Of particular note is the consistency of mean sociability scores across conditions (4.44). However, the remaining three HRIES dimensions saw in increase in their respective means from condition A to Condition B. Animacy increased from 2.44 to 2.75, agency from 3.50 to 3.81, and disturbance from 1.44 to 1.69. The manipulation check also increased from 2.50 in Condition A to 5.50 in Condition B.
 
-Despite the observed trends in the dimensional means mentioned above, participant level responses varied across dimensions. Three of four participants reported higher sociability and agency scores in condition B, while only one reported higher animacy and disturbance scores. The largest rating differences within a given participant were a 2.25-point increase in animacy and a 1.50-point increase in disturbance towards condition B.
+Despite the observed trends in the dimensional means mentioned above, participant level responses varied across dimensions. Three of four participants reported higher sociability and agency scores in Condition B, while only one reported higher animacy and disturbance scores. The largest rating differences within a given participant were a 2.25-point increase in animacy and a 1.50-point increase in disturbance towards Condition B.
 
 #### Objective Findings
 
-
+Because we did not record speaking time in our final app setup, we cannot report on the findings of this intended objective measure. Alternatively, objective behavioral observations indicated differences in participant movement during conversations, with more movement occurring under Condition B. However, no quantitative behavioral comparisons were available.
 
 #### Qualitative Findings
+
+Of the eight open-ended responses collected, the following four themes emerged: endearing appearance, generic or repetitive speech, conversational timing, and reactions to robot movement.
+
+Generic or repetitive speech appeared in two responses per condition. Conversational timing was mentioned in three Condition A responses and none in Condition B. Endearing appearance appeared in one Condition A response and two Condition B responses. Reactions to movement appeared in one Condition A response and three Condition B responses. Of the participants who commented on movement in Condition B, two described it as pleasant and natural, while one described it as bug-like.
+
 #### Figures
+
+Figures 1–4 show participant-level paired HRIES scores for sociability, animacy, agency, and disturbance, respectively. Each figure connects individual scores across the two conditions.
+
+<p>
+  <img src="figures/paired_sociability.png" width="49%" alt="Sociability by participant">
+  <img src="figures/paired_animacy.png" width="49%" alt="Animacy by participant">
+  <img src="figures/paired_agency.png" width="49%" alt="Agency by participant">
+  <img src="figures/paired_disturbance.png" width="49%" alt="Disturbance by participant">
+</p>
+
 #### Missing Data
 #### Protocol Deviations
 
