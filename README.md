@@ -485,3 +485,9 @@ Since our final project targets middle school children, a second phase would rep
 ---
 
 ## 8. Report
+### Introduction
+### Method
+### Results 
+### Discussion 
+### References 
+### Appendix
