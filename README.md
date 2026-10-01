@@ -567,10 +567,18 @@ For the open-ended answers, we developed four categories from recurring themes: 
 
 #### Participant Accounting
 
-
+All four of our recruited participants (P01–P04) fully completed both conditions, resulting in eight completed trials. As previously mentioned, these participants were 22–27 years old with a mean of 24.3, all fluent in English, with low-to-moderate robot familiarity resulting in a mean familiarity score of 2.75/7.
 
 #### HRIES Results
+
+Following the completion of each trial, all participants engaged in the full verbal, HRIES-based questionnaire. The results captured by the HRIES questionnaire are presented in Table 1. Of particular note is the consistency of mean sociability scores across conditions (4.44). However, the remaining three HRIES dimensions saw in increase in their respective means from condition A to condition B. Animacy increased from 2.44 to 2.75, agency from 3.50 to 3.81, and disturbance from 1.44 to 1.69. The manipulation check also increased from 2.50 in condition A to 5.50 in condition B.
+
+Despite the observed trends in the dimensional means mentioned above, participant level responses varied across dimensions. Three of four participants reported higher sociability and agency scores in condition B, while only one reported higher animacy and disturbance scores. The largest rating differences within a given participant were a 2.25-point increase in animacy and a 1.50-point increase in disturbance towards condition B.
+
 #### Objective Findings
+
+
+
 #### Qualitative Findings
 #### Figures
 #### Missing Data
