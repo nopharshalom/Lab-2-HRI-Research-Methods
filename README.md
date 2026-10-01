@@ -306,27 +306,57 @@ In the Google Sheet, these calculations are done with formulas in the Responses 
 
 ## 7. Analysis and Reflection
 
-### Participant Accounting
-
 ### Results Table
 
-| Measure | Condition A | Condition B | Within-Participant Difference (A − B) |
+Values are mean (SD) [median]. The difference column is Condition B minus Condition A, so a positive value means the score was higher when the robot moved. All HRIES scores and the manipulation check are on a 1–7 scale; higher values mean more sociable, more alive, more capable of acting on its own, and more unsettling, respectively. n = 4 in each condition.
+
+| Measure | Condition A (speech only) | Condition B (speech + movement) | Mean Within-Participant Difference (B − A) |
 |---|---|---|---|
-| HRIES Sociability | | | |
-| HRIES Animacy | | | |
-| HRIES Agency | | | |
-| HRIES Disturbance | | | |
-| Objective Measure | | | |
+| HRIES Sociability | 4.44 (1.52) [4.38] | 4.44 (1.92) [4.63] | 0.00 |
+| HRIES Animacy | 2.44 (0.43) [2.38] | 2.75 (1.14) [2.50] | +0.31 |
+| HRIES Agency | 3.50 (1.40) [3.25] | 3.81 (1.71) [3.88] | +0.31 |
+| HRIES Disturbance | 1.44 (0.72) [1.13] | 1.69 (0.85) [1.50] | +0.25 |
+| Manipulation Check | 2.50 (2.38) [1.50] | 5.50 (1.29) [5.50] | +3.00 |
 
 ### Participant-Level Paired Figure
 
+Each line shows one participant's score in Condition A (speech only) and Condition B (speech + movement). Scores range from 1 to 7.
+
+![Sociability by participant](figures/paired_sociability.png)
+![Animacy by participant](figures/paired_animacy.png)
+![Agency by participant](figures/paired_agency.png)
+![Disturbance by participant](figures/paired_disturbance.png)
+
 ### Interpretation by HRIES Dimension
+
+**Sociability (primary outcome; higher = warmer and friendlier).** The average was identical in both conditions (4.44). Three of four participants rated the moving robot slightly more sociable, each by only 0.25 points, while P04 rated it 0.75 points lower. Participants differed far more from each other (from 2.75 to 6.25 in Condition A) than any participant changed between conditions, so movement did not noticeably change how sociable the robot seemed.
+
+**Animacy (higher = more alive and natural).** Animacy was low in both conditions (2.44 in A, 2.75 in B), meaning participants did not see the robot as very lifelike either way. The small increase in B came almost entirely from P03, whose score rose by 2.25 points; P01 and P04 rated the moving robot slightly lower, and P02 did not change. The effect of movement on animacy was therefore inconsistent across people.
+
+**Agency (higher = more capable of acting on its own).** Agency rose slightly in B (3.50 to 3.81), and three of four participants gave higher scores there. P04 was again the exception, rating the moving robot lower. This suggests movement may make the robot seem a little more intentional to some people, but the change is small.
+
+**Disturbance (higher = more unsettling).** Disturbance stayed low in both conditions (1.44 in A, 1.69 in B), so neither version of the robot was found very unsettling. The slight increase in B was driven by P04, whose score rose by 1.5 points and who described the movement as bug-like. P01 and P02 did not change, and P03's disturbance went down. Because higher disturbance is the undesirable direction, this shows that movement can backfire for some people even when others find it appealing.
+
+**Manipulation check.** All four participants agreed more strongly in Condition B that the robot responded with head movements (2.50 in A, 5.50 in B), confirming that participants noticed the difference between conditions. P02 gave a high rating (6) even in Condition A, when the robot did not move, which may mean they interpreted the item loosely.
+
+### Within-Participant Differences (B − A)
+
+| Participant | Sociability | Animacy | Agency | Disturbance | Manipulation Check |
+|---|---|---|---|---|---|
+| P01 | +0.25 | −0.50 | +0.50 | 0.00 | +2 |
+| P02 | +0.25 | 0.00 | +0.50 | 0.00 | +1 |
+| P03 | +0.25 | +2.25 | +1.00 | −0.50 | +5 |
+| P04 | −0.75 | −0.50 | −0.75 | +1.50 | +4 |
+| Participants higher in B | 3 of 4 | 1 of 4 | 3 of 4 | 1 of 4 | 4 of 4 |
 
 ### Qualitative Coding Table
 
-| Category | Definition | Summary of Findings | Example Excerpt / Paraphrase |
+| Category | Definition | Summary of Findings | Example Paraphrase |
 |---|---|---|---|
-| | | | |
+| Endearing appearance | The participant describes the robot as cute, adorable or likeable in its look or features. | Mentioned in 1 of 4 Condition A responses and 2 of 4 Condition B responses. In B, the cuteness was tied to the antennas ("ears") and their movement. | P03 (B) found the robot adorable and especially liked its little ears. |
+| Generic or repetitive speech | The participant says the robot's replies were generic, plain, repeated, or unrelated to what they said. | The most consistent theme, appearing in 2 of 4 responses in each condition (P02 and P04 both times). Movement did not change this impression. | P02 (A) said every reply was generic and nothing was specific to what they had said. |
+| Conversational timing | The participant comments on when or how quickly the robot responded. | Mentioned in 3 of 4 Condition A responses and none in B. Comments were mixed: replies felt oddly timed or fast to some, while one participant was impressed that it knew when they stopped talking. | P01 (A) felt the robot's responses came at odd moments. |
+| Reaction to robot movement | The participant notices the robot's movement, or its absence, and says how it felt. | Mentioned in 1 of 4 Condition A responses (noting no movement) and 3 of 4 Condition B responses. Two participants found the movement pleasant and natural; one found it bug-like. | P04 (B) said the movements looked like those of an insect, such as a roach. |
 
 ### Answers to Research Questions / Hypotheses
 
