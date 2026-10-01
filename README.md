@@ -264,6 +264,8 @@ Total speaking time, in seconds, during the conversation. The app measures this 
 
 ### Datasets
 
+[Raw Data Google Sheet Found Here](https://docs.google.com/spreadsheets/d/1r0SRfQDrf8Qvk5bd2O6SjLyphTbME4_NkkX86LKy_M8/edit?gid=618784505#gid=618784505)
+
 ### Data Dictionary
 
 | Variable | Definition | Response Scale | Units |
@@ -299,8 +301,6 @@ Each HRIES dimension score is the average of its four items:
 For each participant, we calculate the within-person difference on every measure as their Condition B value minus their Condition A value. A positive difference means the score was higher when the robot moved.
 
 In the Google Sheet, these calculations are done with formulas in the Responses and Summary tabs, so anyone can check them by entering the raw ratings.
-
-[Raw Data Google Sheet Found Here](https://docs.google.com/spreadsheets/d/1r0SRfQDrf8Qvk5bd2O6SjLyphTbME4_NkkX86LKy_M8/edit?gid=618784505#gid=618784505)
 
 ---
 
