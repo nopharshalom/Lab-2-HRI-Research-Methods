@@ -399,17 +399,88 @@ Each line shows one participant's score in Condition A (speech only) and Conditi
 | Conversational timing | The participant comments on when or how quickly the robot responded. | Mentioned in 3 of 4 Condition A responses and none in B. Comments were mixed: replies felt oddly timed or fast to some, while one participant was impressed that it knew when they stopped talking. | P01 (A) felt the robot's responses came at odd moments. |
 | Reaction to robot movement | The participant notices the robot's movement, or its absence, and says how it felt. | Mentioned in 1 of 4 Condition A responses (noting no movement) and 3 of 4 Condition B responses. Two participants found the movement pleasant and natural; one found it bug-like. | P04 (B) said the movements looked like those of an insect, such as a roach. |
 
+
+#### Demographics, Robot Familiarity, and Condition Order
+
+We collected only information that could reasonably affect how someone talks to or judges a robot: age, how comfortable they are speaking English, and how familiar they are with robots, rated from 1 (never interacted with a robot) to 7 (work with robots regularly). Each participant was given a de-identified ID. All participants completed Condition A first and Condition B second, and both conversations used the same "place" prompt.
+
+| Participant ID | Age | English Comfort | Robot Familiarity (1–7) | Condition Order | Prompt | Trial Status (A / B) |
+|---|---|---|---|---|---|---|
+| P01 | 22 | Fluent | 4 | A then B | Place | Completed / Completed |
+| P02 | 23 | Fluent | 1 | A then B | Place | Completed / Completed |
+| P03 | 25 | Fluent | 3 | A then B | Place | Completed / Completed |
+| P04 | 27 | Fluent | 3 | A then B | Place | Completed / Completed |
+
+Participants were 22–27 years old (mean 24.3), all fluent in English, with low-to-moderate robot familiarity (mean 2.75 out of 7). All eight trials were completed with no interruptions, failures, or repeats, and no data were missing.
+
+**Protocol deviation:** The lab called for counterbalanced condition order (AB, BA, AB, BA), but all four participants received A then B. We note this as a deviation and discuss it as a threat to validity in Section 7.3.
+
+---
+
 ### Answers to Research Questions / Hypotheses
+
+**H1: Participants will report higher HRIES sociability scores in Condition B (movement) than in Condition A (still).**
+**Evidence: mixed, and overall insufficient to support H1.**
+
+- **Quantitative:** Mean sociability was identical in both conditions (4.44 vs. 4.44). P01, P02, and P03 each rated the moving robot 0.25 points higher, while P04 rated it 0.75 points lower. These changes are much smaller than the differences between participants (2.75 to 6.25 in Condition A alone).
+- **Behavioral:** Our observations of participant movement suggest the strength of the manipulation varied from person to person. Head tracking only moves the robot when the participant moves. P02 sat still and did not notice the robot moving, and P04 only turned side to side on a spinning chair, so both likely saw much less robot movement than P01 and P03, who moved their heads while talking.
+- **Qualitative:** The most consistent theme across both conditions was that Reachy's replies were generic (P02 and P04 in both conditions). P02 said their opinion did not change because the robot asked the same question and gave similar responses. Participants' social impressions seemed driven more by what Reachy said than by how it moved.
+
+**H2: Participants will speak longer in Condition B than in Condition A.**
+**Evidence: insufficient (not tested).**
+
+- **Behavioral:** We did not record speaking time. Our final app used a Wizard-of-Oz setup in which the facilitator triggered Reachy's responses, so it did not measure participant speech from the microphone. We cannot answer H2 with this pilot, and we list this as a deviation from our planned measures.
+- **Qualitative:** Some answers hint at engagement. P01 liked the movement and said more cues while talking would help, and P02 noted Reachy added prompts like "tell me more." But none of the answers describe talking more or less to the moving robot.
+
+**RQ1 (exploratory): How do active-listening movements affect HRIES disturbance ratings and participants' descriptions of the robot?**
+**Evidence: mixed.**
+
+- **Quantitative:** Disturbance stayed low in both conditions (1.44 in A, 1.69 in B). P01 and P02 did not change, P03's disturbance went down (2.50 to 2.00), and P04's went up sharply (1.25 to 2.75), accounting for the whole increase.
+- **Behavioral:** P04 was the participant who moved least toward the robot (only turning side to side on a spinning chair) and said they did not like the robot's movement.
+- **Qualitative:** Three of four Condition B answers mentioned the movement. P01 and P03 found it cute and natural, with P03 saying it felt more natural when it responded in a non-jerky way. P04 compared the movement to a bug, such as a roach.
+- **Takeaway:** Movement did not make Reachy unsettling for most people, but it can backfire. Whether it works seems to depend on how smoothly and naturally the robot moves.
 
 ### Convergence and Disagreement Among Evidence
 
+**Where the evidence agrees:**
+
+- **Participants noticed the movement.** All four participants gave higher manipulation-check ratings in Condition B (mean 2.50 to 5.50), and three of four mentioned the robot's movement in their Condition B answers.
+- **More participant movement meant a stronger effect.** All three forms of evidence line up for P03. P03 moved and paid attention to the robot's motion, had the largest manipulation-check increase (+5), the largest animacy increase (+2.25), and described the robot as "really cute" and "more natural." P02, who sat still and did not notice the robot moving, had the smallest manipulation-check increase (+1) and no change in animacy. Because the robot's tracking movement depends on how much the participant moves, participants effectively received different "doses" of Condition B.
+- **P04's reactions are consistent.** P04 rated the moving robot lower on sociability, animacy, and agency, higher on disturbance, described it as bug-like, and was observed not liking the movement. This points to a real negative reaction rather than random noise.
+
+**Where the evidence disagrees:**
+
+- **Noticing movement did not change ratings.** Participants clearly noticed the movement, yet sociability did not change on average. Noticing a behavior is not the same as finding it socially meaningful or intentional.
+- **Timing complaints disappeared in Condition B.** In Condition A, three of four participants commented on response timing (P01 "oddly timed," P03 "a little fast," P02 impressed that it knew when they stopped talking). None of the Condition B answers mentioned timing, even though the timing worked the same way. Movement may have made the same responses feel better timed, even though this did not show up in the HRIES scores.
+- **P02's Condition A rating doesn't fit.** P02 gave a manipulation-check rating of 6 in Condition A, when the robot did not move, and was also observed not to notice robot movement. P02 may have read the item as "the robot responded to me" rather than "responded with head movements."
+
 ### Alternative Explanations
+
+- **The voice and script dominated.** Reachy's replies were identical, generic, and scripted in both conditions, and played from a laptop speaker. Participants may have mainly judged Reachy by what it said, hiding any effect of movement. P02's comment that nothing changed "because it was the same question and it said the same thing" supports this.
+- **Participants experienced different amounts of movement.** Since face tracking responds to the participant's own movement, participants who sat still (P02, P04) saw less robot movement than those who moved (P01, P03). Small average effects may reflect a weak manipulation for half the sample, not a weak effect of movement itself.
+- **Movement quality, not movement itself.** As noted in our sim-to-real comparison, the real robot moved somewhat jerkily and its motors were audible. P04's "roach" comment and P03's note about non-jerky movement suggest people react to how the robot moves, not just whether it moves.
+- **Order and repetition.** Every participant did Condition A first and repeated the same "place" story in Condition B. Any change in B could come from familiarity, reduced novelty, or retelling the same story, not from the movement.
 
 ### Threats to Validity
 
+1. **Sample size.** With four participants, one person can shift the averages a lot. P04 alone canceled out the small sociability gains from the other three. We can describe patterns, but we cannot draw conclusions or run meaningful statistical tests.
+2. **Convenience sampling.** Participants were Cornell Tech graduate students aged 22–27, all fluent in English, with low-to-moderate robot familiarity. They are very different from our intended final-project users, middle school children, who may react to robot movement and voice differently.
+3. **Order effects.** All participants did A before B, so the effect of movement is completely mixed up with being the second session. Participants were more familiar with the robot and repeating the same story, so we cannot separate the effect of movement from the effect of going second.
+4. **Measurement validity.** The manipulation-check wording may have been ambiguous, as P02's rating of 6 in Condition A suggests. We also read the questionnaire aloud, which may have encouraged polite, socially acceptable answers and could explain why disturbance stayed so low. Finally, we planned to measure speaking time but did not, so H2 could not be tested.
+5. **Robot and manipulation variability.** Because head tracking depends on the participant's movement, the intensity of Condition B varied between participants (P02 and P04 moved very little). Tracking may also have been affected by lighting and seating position.
+6. **Experimenter influence.** In our Wizard-of-Oz setup, a team member decided when Reachy responded. They knew which condition was running and could have timed responses differently without meaning to. Several answers were recorded as paraphrases (e.g., P04's Condition B response is in the third person), so the facilitator's wording may have shaped how responses were recorded.
+
 ### Proposed Interaction Improvement
 
+Our data point to two problems: generic speech and uneven movement. The most important fix is making Reachy's replies respond to what the participant actually says. Participants in both conditions said Reachy's answers felt generic, and P02 said nothing changed because the robot "said the same thing." We would use speech recognition from the Reachy Mini Conversation App to pick out keywords and reflect them back (e.g., "The beach sounds really relaxing"). We would also detect pauses automatically from the microphone, removing facilitator timing errors. To make movement consistent, we would add small listening nods and antenna movements on a regular rhythm, so that participants who sit still still see active listening. P01 asked for exactly this kind of cue.
+
 ### Proposed Follow-Up Study
+
+We would run a larger within-subjects study with about 20 participants. We would counterbalance the condition order (half AB, half BA) and use two comparable prompts (e.g., "a place you like" and "a hobby you enjoy"), also counterbalanced, so no one repeats the same story.
+
+Both conditions would use the improved, content-aware replies, so speech quality no longer hides the effect of movement. Condition B would combine face tracking with regular nods, so every participant receives a similar amount of listening behavior. Speaking time would be recorded automatically from the microphone, and we would log how much the robot moved in each session. The questionnaire would be completed privately on a tablet to reduce social-desirability bias.
+
+Since our final project targets middle school children, a second phase would repeat the study with that age group. It would include parent consent and child assent and simplified questionnaire items, to test whether active-listening movement matters more to children than to adult graduate students.
 
 ---
 
