@@ -662,10 +662,57 @@ Since our final project targets middle school children, a second phase would rep
 
 ### Appendix
 
-### Conditions Table
+#### Conditions Table
 
 | Element | Condition A | Condition B | Held Constant |
 |---|---|---|---|
 | Primary factor | No active listening movements. | Head tracking, active listening movements. | Reachy's verbal responses to each user comment. |
 | Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot does not hold its neutral pose and tracks the user's head movements. | Starting and ending poses are positioned at neutral. |
-| Interaction | The participant talks to the robot about assigned prompts. | Same task. | Instructions, room setup, facilitator, and operator. |
+| Interaction | The participant talks to the robot about assigned prompts. | Same task. | Instructions, room setup, facilitator, and operator.|
+
+#### Facilitator Script
+
+**Before the participant arrives**
+
+We power on the robot, confirm the battery and motors look normal, and run a short test of both conditions to make sure the robot stays still in Condition A and nods and head tracks in Condition B. We check that the log is recording and put the robot in its neutral pose.
+
+**Welcome and agreement to participate**
+
+> "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. We're interested in how people experience talking to robots. This interaction will not be recorded. Your responses to the questionnaire will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
+
+**Background questions**
+
+We ask the participant their age range, how comfortable they are speaking English, and how familiar they are with robots (1–7).
+
+**Conversations**
+
+We read the standard instructions and signal the operator team member to start the conversation. After the first condition conversation, the operator will begin the second condition conversation. After each conversation is complete, we will verbally administer the questionnaire, meaning each participant will complete the questionnaire twice.
+
+**Debrief**
+
+> "Thank you. Now we can tell you what we were looking at. During the first conversation, the robot had only verbal responses. During the second conversation, the robot had both verbal responses and head movements mimicking active listening. We wanted to know whether the presence/absence of movement changes how friendly or attentive the robot seems, and whether they affect how much people talk. Do you have any questions?"
+
+#### Survey Materials
+
+##### HRIES Questionnaire
+
+Participants rate how well each word describes the robot on a 7-point scale, from 1 (not at all) to 7 (very much). The 16 words are shown in a mixed order, and the same order is used every time. Each dimension is scored separately.
+
+| Dimension | Items |
+|---|---|
+| Sociability (primary outcome) | Warm, Likeable, Trustworthy, Friendly |
+| Animacy | Human-like, Real, Alive, Natural |
+| Agency | Self-reliant, Rational, Intentional, Intelligent |
+| Disturbance | Scary, Strange, Creepy, Weird |
+
+##### Objective Behavioral Measure
+
+Total speaking time, in seconds, during the conversation. The app measures this from the microphone by adding up the time the participant was speaking. We also record how many times the facilitator had to prompt the participant to keep going.
+
+##### Open-Ended Question
+
+"How would you describe the robot's behavior while you were talking?"
+
+##### Manipulation-Check Item
+
+"The robot responded to what I was saying with head movements." Rated from 1 (strongly disagree) to 7 (strongly agree).
