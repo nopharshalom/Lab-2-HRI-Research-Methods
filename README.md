@@ -624,15 +624,48 @@ Additionally, conversational timing was mentioned in three Condition A responses
 
 #### Alternative Explanations
 
+Several factors may explain the observed results beyond the presence of movement. First, the robot's identical, generic responses across both conditions may have overshadowed the effects of movement, diminishing the participants' perceptions of active listening behavior. P02 explicitly noted that their impression remained unchanged because the robot asked the same question and provided similar responses.
+
+Second, participants experienced different amounts of movement because face tracking depended on their own movements. Participants who remained relatively still may have experienced a weaker manipulation, contributing to the variation in their ratings.
+
+Movement quality may also have influenced participants' reactions. The robot's movements were sometimes jerky, and its motors were audible. P04's negative description and P03's preference for smoother movement suggest that execution may have influenced perceptions independently of movement itself.
+
+Finally, because all participants completed Condition A before Condition B and repeated the same prompt, familiarity with the robot and the conversation may have influenced their responses in the second condition.
+
 #### Limitations
+
+The first limitation of this study is the small sample size. With four participants, one person can shift the averages a lot. For example, P04 alone canceled out the small sociability gains from the other three. We can describe observed patterns, but cannot draw conclusions or run meaningful statistical tests. Within this sample, all participants were Cornell Tech graduate students aged 22–27, fluent in English, with low-to-moderate robot familiarity. This demographic is very different from our intended final-project users, middle school children, who may react to robot movement and voice differently.
+
+Among the experimental design were limitations regarding the order of the conditions. In an effort to maintain consistency among participants, all were exposed to Condition A before B, so the effect of movement is coupled with being the second session. During this second session, participants were more familiar with the robot and the same prompts were repeated, so we cannot separate the effect of movement from the effect of secondary exposure. Additionally, the manipulation-check wording may have been ambiguous, as P02's unanticipated rating of 6 in Condition A suggests. We also read the questionnaire aloud, which may have encouraged polite, socially acceptable answers and could explain why disturbance stayed so low. Finally, we planned to measure speaking time but did not, so our second hypothesis could not be tested.
+
+Because head tracking depends on the participant's movement, the intensity of Condition B varied between participants (P02 and P04 moved very little and, thus, had less robot movement). Tracking may also have been affected by lighting and seating position.
+
+Lastly, facilitator and operator error could have played a role in the observed results. In our Wizard-of-Oz setup, a team member decided when Reachy responded. They knew which condition was running and could have timed responses differently without meaning to. Additionally, several answers were recorded as paraphrases (e.g., P04's Condition B response is in the third person), so the facilitator's wording may have shaped how responses were later interpreted.
 
 #### Design Implications
 
+Our findings point to two areas of improvement in design: generic speech and uneven movement. The most important fix is making Reachy's replies respond to what the participant actually says. Participants in both conditions said Reachy's answers felt generic, and P02 said nothing changed because the robot "said the same thing." We would use speech recognition from the Reachy Mini Conversation App to pick out keywords and reflect them back (e.g., "The beach sounds really relaxing"). We would also detect pauses automatically from the microphone, removing facilitator timing errors. To make movement consistent, we would add small listening nods and antenna movements on a regular rhythm, so that participants who sit still still see active listening. P01 asked for exactly this kind of cue.
+
 #### Proposed Follow-Up Study
+
+We would run a larger within-subjects study with about 20 participants. We would counterbalance the condition order (half AB, half BA) and use two comparable prompts (e.g., "a place you like" and "a hobby you enjoy"), also counterbalanced, so no one repeats the same story.
+
+Both conditions would use the improved, content-aware replies, so speech quality no longer hides the effect of movement. Condition B would combine face tracking with regular nods, so every participant receives a similar amount of listening behavior. Speaking time would be recorded automatically from the microphone, and we would log how much the robot moved in each session. The questionnaire would be completed privately on a tablet to reduce social-desirability bias.
+
+Since our final project targets middle school children, a second phase would repeat the study with that age group. It would include parent consent and child assent and simplified questionnaire items, to test whether active-listening movement matters more to children than to adult graduate students.
 
 ### References 
 - Gratch, J., Wang, N., Gerten, J., Fast, E., & Duffy, R. (2007). Creating rapport with virtual agents. In *Intelligent Virtual Agents (IVA 2007)*, Lecture Notes in Computer Science, vol. 4722 (pp. 125–138). Springer.
 - Park, H. W., Gelsomini, M., Lee, J. J., & Breazeal, C. (2017). Telling stories to robots: The effect of backchanneling on a child's storytelling. In *Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction (HRI '17)* (pp. 100–108).
 - Spatola, N., Kühnlenz, B., & Cheng, G. (2021). Perception and evaluation in human–robot interaction: The Human–Robot Interaction Evaluation Scale (HRIES)—A multicomponent approach of anthropomorphism. *International Journal of Social Robotics, 13*, 1517–1539.
 - Yngve, V. H. (1970). On getting a word in edgewise. In *Papers from the Sixth Regional Meeting of the Chicago Linguistic Society* (pp. 567–578).
+
 ### Appendix
+
+### Conditions Table
+
+| Element | Condition A | Condition B | Held Constant |
+|---|---|---|---|
+| Primary factor | No active listening movements. | Head tracking, active listening movements. | Reachy's verbal responses to each user comment. |
+| Robot behavior | The robot holds its neutral pose for the whole conversation. | The robot does not hold its neutral pose and tracks the user's head movements. | Starting and ending poses are positioned at neutral. |
+| Interaction | The participant talks to the robot about assigned prompts. | Same task. | Instructions, room setup, facilitator, and operator. |
