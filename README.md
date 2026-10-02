@@ -571,7 +571,7 @@ All four of our recruited participants (P01–P04) fully completed both conditio
 
 #### HRIES Results
 
-Following the completion of each trial, all participants engaged in the full verbal, HRIES-based questionnaire. The results captured by the HRIES questionnaire are presented in Table 1. Of particular note is the consistency of mean sociability scores across conditions (4.44). However, the remaining three HRIES dimensions saw in increase in their respective means from condition A to Condition B. Animacy increased from 2.44 to 2.75, agency from 3.50 to 3.81, and disturbance from 1.44 to 1.69. The manipulation check also increased from 2.50 in Condition A to 5.50 in Condition B.
+Following the completion of each trial, all participants engaged in the full verbal, HRIES-based questionnaire. The results captured by the HRIES questionnaire are presented in Table 1. Of particular note are the identical mean sociability scores of the two conditions (4.44). However, the remaining three HRIES dimensions saw in increase in their respective means from condition A to Condition B. Animacy increased from 2.44 to 2.75, agency from 3.50 to 3.81, and disturbance from 1.44 to 1.69. The manipulation check also increased from 2.50 in Condition A to 5.50 in Condition B.
 
 Despite the observed trends in the dimensional means mentioned above, participant level responses varied across dimensions. Three of four participants reported higher sociability and agency scores in Condition B, while only one reported higher animacy and disturbance scores. The largest rating differences within a given participant were a 2.25-point increase in animacy and a 1.50-point increase in disturbance towards Condition B.
 
@@ -608,9 +608,19 @@ Condition order was not counterbalanced as specified in the lab protocol; all pa
 
 #### Research Question Answers
 
+The evidence was mixed and insufficient to support our first hypothesis: Participants will report higher HRIES sociability scores in Condition B than in Condition A. Mean sociability scores were identical across conditions (4.44), despite three of four participants reporting slightly higher scores when the robot moved. The small individual changes and substantial differences between participants suggest that movement did not consistently affect perceived sociability, and a larger sample of participants would be needed to sufficiently identify any trends. Qualitative responses also indicated that generic, repetitive speech may have had a greater influence on participants' social impressions than movement.
 
+As previously stated, the collected evidence was insufficient to evaluate our second hypothesis: Participants will speak longer in Condition B than in Condition A, because speaking time was not recorded. In addition, none of the participants' qualitative responses addressed their experience with speaking time.
 
-#### Evidence Interpretation, 
+The evidence was mixed regarding our research question: How do active-listening movements affect HRIES disturbance ratings and participants' descriptions of the robot? Disturbance scores remained low across both conditions, with only a slight increase in the mean score from 1.44 for Condition A to 1.69 for condition B. Qualitative responses further revealed differing reactions: two participants described the movement positively, while one found it bug-like. These findings suggest that movement was generally not perceived as unsettling or disturbing, although individual reactions varied.
+
+#### Evidence Interpretation 
+
+The quantitative and qualitative findings provide complementary insights into participants' reactions. All four participants had higher manipulation-check scores in Condition B, and three mentioned the robot's movement in their open-ended responses, indicating that the manipulation was generally noticeable. However, noticing movement did not correspond to higher sociability ratings.
+
+Individual responses also varied considerably. P03 had the largest increases in manipulation-check and animacy scores and described the robot as cute and more natural. In contrast, P04 rated the moving robot lower in sociability, animacy, and agency and higher in disturbance, describing its movement as bug-like. These responses illustrate how the same behavior can produce different perceptions, highlighting the complexity of human-robot interactions.
+
+Additionally, conversational timing was mentioned in three Condition A responses but none in Condition B, despite consistent timing across conditions. This difference may indicate that movement influenced how participants perceived the robot's conversational behavior, although the available data cannot establish this relationship.
 
 #### Alternative Explanations
 
