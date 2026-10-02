@@ -672,23 +672,23 @@ Since our final project targets middle school children, a second phase would rep
 
 #### Facilitator Script
 
-**Before the participant arrives**
+##### Before the participant arrives
 
 We power on the robot, confirm the battery and motors look normal, and run a short test of both conditions to make sure the robot stays still in Condition A and nods and head tracks in Condition B. We check that the log is recording and put the robot in its neutral pose.
 
-**Welcome and agreement to participate**
+##### Welcome and agreement to participate
 
 > "Thanks for participating! Today you'll have two short conversations with a small robot called Reachy Mini, and after each one you'll fill out a brief questionnaire. We're interested in how people experience talking to robots. This interaction will not be recorded. Your responses to the questionnaire will be stored and you can skip any question or stop at any time without any problem. Do you have any questions?"
 
-**Background questions**
+##### Background questions
 
 We ask the participant their age range, how comfortable they are speaking English, and how familiar they are with robots (1–7).
 
-**Conversations**
+##### Conversations
 
 We read the standard instructions and signal the operator team member to start the conversation. After the first condition conversation, the operator will begin the second condition conversation. After each conversation is complete, we will verbally administer the questionnaire, meaning each participant will complete the questionnaire twice.
 
-**Debrief**
+##### Debrief
 
 > "Thank you. Now we can tell you what we were looking at. During the first conversation, the robot had only verbal responses. During the second conversation, the robot had both verbal responses and head movements mimicking active listening. We wanted to know whether the presence/absence of movement changes how friendly or attentive the robot seems, and whether they affect how much people talk. Do you have any questions?"
 
